@@ -1,0 +1,118 @@
+
+\chapter{Protein Structure Prediction} 
+
+\label{Chapter7} 
+
+\section{Concepts Discussed}
+
+    \subsection{Experimental 3D Structure Determination}
+    See lecture notes.\autocite{T7}
+
+        \subsubsection{X-Ray Crystallography}
+        See lecture notes.\autocite{T7}
+
+        \subsubsection{NMR Spectroscopy}
+        See lecture notes.\autocite{T7}
+
+    \subsection{Background}
+
+        \subsubsection{Definitions}
+        See lecture notes.\autocite{T7}
+
+        \subsubsection{Protein Structures}
+        See lecture notes.\autocite{T7}
+
+        \subsubsection{Secondary Structures}
+        See lecture notes.\autocite{T7}
+
+    \subsection{Properties of Stable Tertiary Structure}
+    See lecture notes.\autocite{T7}
+
+        \subsubsection{}
+
+
+\section{Tools Discussed}
+
+   \subsection{RCSB PDB}
+
+    This database was originally constructed in the 1980s to serve as an archive for biological macromolecular crystal structures.\autocite{B13} It has since been updated to include structures determined via nuclear magnetic resonance imaging (NMR) and implemented as a web-based service freely accessible to both researchers in the field and the general public.\autocite{B13} From it, a wealth of information about proteins sequence, primary, secondary and tertiary structures can be gathered to facilitate comprehensive structural analysis for proteomics applications.\autocite{B13}
+
+   \subsection{FirstGlance in Jmol}
+
+   Jmol is software develop in the java language for molecular modelling chemical structures in 3D. It is available as an OS application, a JavaApplet for integration into other Java based apps, and in a JavaScript only versions using HTML5 to run on computers without java.\autocite{B14} FirstGlance in Jmol is a browser based implementation of the Jmol software which is specialized for quick, widely accessible 3D visualizations of proteins, DNA, RNA from their PDB identification code.\autocite{B14} The FirstGlance in Jmol web-app is integrated with the RCSB-PDB to directly fetch the PDB file of a given sequence with its protein ID.\autocite{B14}
+
+   \subsection{SWISS-MODEL}
+
+   SWISS-MODEL is a homology modeling tool which uses a web-server to automate the modeling work-flow for use by researchers lacking specific computational expertise.\autocite{B15} It allows input of a variety of sequence file types (FASTA, Clustal, PDB, etc.) to enable homology modeling of individual protein targets, protein targets and their templates, or target-template alignments for visualization and interpretation.\autocite{B15} As homology modeling is currently the most accurate method for creating 3D protein structure models, SWISS-MODEL’s accessibility and ease of use allows delivery of complex computation modeling tools to whomever may required it.
+
+   \subsection{PDBeFold}
+
+   Protein Data Bank in Europe’s Fold tool (PDBeFold) allows pairwise or multiple comparison and 3D alignments of protein structures.\autocite{B16} Unlike sequence alignment, the algorithm compares the geometric location of amino-acid residues between two sequences and therefore residue type is irrelevant.\autocite{B16}
+
+   \subsection{PSIPRED}
+
+   PSI-blast based secondary structure PREDiction (PSIPRED) protein sequence analysis workbench is an online tool used to investigate protein secondary structures.\autocite{B17} It is used for \emph{ab initio} prediction of secondary structures form primary protein sequence data by applying different machine learning based algorithms\autocite{B17}. At this time the web service is able to predict alpha helices, beta sheets, and coils but will likely be improved over time to yield more complex predictions and better accuracy.\autocite{B17}
+
+\section{Tool Usage}
+
+    \subsection{RCSB PDB}
+
+    See source.\autocite{B13}
+
+    \subsection{FirstGlance in Jmol}
+
+    See source. \autocite{B14}
+
+    \subsection{SWISS-MODEL}
+
+    The work-flow for 3D protein modeling in SWISS-MODEL is as follows:
+    \begin{enumerate}
+
+        \item \textbf{Input data} \\
+        Input an amino acid sequence for the target protein. SWISS-MODEL accepts such files in FASTA, Clustal, plain text or as a UniPortKB accession code.\autocite{B15}
+
+        \item \textbf{Template search} \\
+        The data input from 1 is used as a search query for evolutionarily related protein structures in the SWISS-MODEL template library, SMTL. Two database search methods are available, the first with BLAST to provide speed with reasonable accuracy; the second is HHBlitz, which increases accuracy and sensitivity for more distantly related protein structures.\autocite{B15}
+
+        \item \textbf{Template selection} \\
+        Templates returned by the search are ranked according to quality---estimated by Global Model Quality Estimate and Quaternary Structure Quality Estimate.\autocite{B15} Top-ranked templates are compared to verify they are not alternative conformational states or different regions of the target protein.\autocite{B15} Options for alternative templates are displayed in a table with information about each; additionally, interactive graphical views allow visual interpretation of the available templates.\autocite{B15}
+        
+        \item \textbf{Model building} \\
+        The model is built by comparing co-ordinates for each selected template to conserved co-ordinates in the target-template alignment, thereby generating a 3D framework on which to build the model.\autocite{B15} Insertions/deletions in the alignment are included by loop modeling, with the final structure constructed from the remainder of non-conserved alignment positions.\autocite{B15}
+
+        \item \textbf{Model quality estimation} \\
+        Model errors are estimated using the QMEAN scoring function to generate global and per residue quality estimates.\autocite{B15} This is functionally similar to a 2D scoring matrix, though the math is much more complex.
+
+    \end{enumerate} 
+
+    \subsection{PDBeFold}
+
+    See source.\autocite{B16}
+
+    \subsection{PSIPRED}
+
+    See source.\autocite{B17}
+
+\section{Tool Applications}
+
+    \subsection{RCSB PDB}
+
+    See source.\autocite{B13}
+
+    \subsection{FirstGlance in Jmol}
+
+    See source. \autocite{B14}
+
+    \subsection{SWISS-MODEL}
+
+        \subsubsection{Rational Drug Design}
+
+        While 3D modeling proteins has a wide range of applications, one of particular personal interest in rational drug design. Designing drugs to interact with specific protein targets would enable rapid development of new pharmaceuticals while drastically reducing the cost of research and development.\autocite{L7} 3D modeling drug and target proteins is essential as a first step towards this goal, as accurate 3D models are required to predict interactions between a drug and its target. SWISS-MODEL has a role to play in this process, but many of the other tools listed here will also make a contribution to achieving this end.\autocite{L7}
+
+    \subsection{PDBeFold}
+
+    See source.\autocite{B16}
+
+    \subsection{PSIPRED}
+
+    See source. \autocite{B17}

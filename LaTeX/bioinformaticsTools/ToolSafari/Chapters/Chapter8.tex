@@ -1,0 +1,130 @@
+
+\chapter{Secondary Structure Prediction} 
+
+\label{Chapter8} 
+
+\section{Concepts Discussed}
+
+    \subsection{Types of Prediction Methods}
+
+    See lecture notes.\autocite{T8}
+
+        \subsubsection{Statistical/Probabilistic}
+
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Knowledge-Based Methods}
+
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Machine Learning Methods}
+
+        See lecture notes.\autocite{T8}
+
+    \subsection{Deriving Parameters}
+
+    See lecture notes.\autocite{T8}
+
+        \subsubsection{Training Dataset}
+
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Testing Dataset}
+
+        See lecture notes.\autocite{T8}
+
+    \subsection{Assessing Accuracy of Prediction Programs}
+
+    See lecture notes.\autocite{T8}
+        \subsubsection{Q3}
+        See lecture notes.\autocite{T8}
+        \subsubsection{Mathews Correlations Coefficient}
+        See lecture notes.\autocite{T8}
+        \subsubsection{Fractional Overlap Segments}
+        See lecture notes.\autocite{T8}
+
+    \subsection{Compositional Preferences}
+    See lecture notes.\autocite{T8}
+
+    \subsection{Chau-Fasman Algorithm}
+    See lecture notes.\autocite{T8}
+
+    \subsection{Nearest-Neighbour Methods}
+    See lecture notes.\autocite{T8}
+
+    \subsection{Other Secondary Structures}
+    See lecture notes.\autocite{T8}
+
+        \subsubsection{Trans-membrane Proteins}
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Coiled-Coil Structures}
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Single Stranded RNA Molecules}
+        See lecture notes.\autocite{T8}
+
+    \subsection{Types of Nucleic Acid Secondary Structure}
+    See lecture notes.\autocite{T8}
+
+        \subsubsection{Stems}
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Loops}
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Pseudo-knots}
+        See lecture notes.\autocite{T8}
+
+        \subsubsection{Double Helix}
+        See lecture notes.\autocite{T8}
+
+\section{Tools Discussed}
+
+    \subsection{NCBI Nucleotide Database}
+
+    Access to the NCBI Nucleotide Database is available \href{https://www.ncbi.nlm.nih.gov/nucleotide/}{here}. The service provides an integrated search query across major nucleotide databases including NCBIs own nucleotide database and GenBank divisions storing expressed sequence tags and genome sequence survey data.\autocite{B18} 
+
+    \subsection{mFold}
+
+    Access to the mFold tool is available \href{http://unafold.rna.albany.edu/?q=mfold}{here}. The web service was developed by Michael Zucker, a professor of mathematics at Rensselaer Polytechnic Institute, and is used to predict secondary structures from primary sequence data utilizing a mainly thermodynamic model.\autocite{B19} The algorithm applied in this tool provides an estimate of minimum free energy conformations, thus estimating the most stable configurations from local calculated local minima.\autocite{B19}. If the tool is correct, the selected local minima will correspond to the global minima for a given sequence.\autocite{B19}
+
+\section{Tool Usage}
+
+    \subsection{NCBI Nucleotide Database}
+
+    See documentation.\autocite{B18}
+    
+    \subsection{mFold}
+
+    The mFold pipeline is composed of a number of separate applications which have been integrated to predict nucleic acid folding, hybridization and melting temperatures.\autocite{B19} Instruction for using the service are:
+    \begin{enumerate}
+        \item \textbf{Input} \\
+        Input is supplied via the text-box and must be a nucleic acid sequence; this input is regexed to automatically remove extraneous characters and fix case issues.\autocite{B19} IUPAC codes for incomplete specification of bases can be specified, see documentation for more details.\autocite{B19}
+
+        \item \textbf{Constraints} \\
+        The text area in the constraints box allow use of optional folding constraints to increase the specificity of a query.\autocite{B19} Constraints include forcing specific structures or prohibiting them for a given subsequence of base-pairs; full information about the accepted codes is available in source material.\autocite{B19}
+
+        \item \textbf{Folding Parameters} \\
+        Additional folding parameters include specifying linear vs circular ssRNA or DNA, specifying the temperature at which folding is expected to occur, as well as ionic conditions.\autocite{B19} Fine control like this can enable study of secondary structure under different environmental condition and may provide information about mechanism which enable or disable a given molecule.
+
+        \item \textbf{Output Parameters} \\
+        These can be used to specify the size and format of the images output by mFold.\autocite{B19} Features such as gridlines and molecule outlines can help simplify interpretation of outputs for long sequences.\autocite{B19}
+
+        \item \textbf{Folding Results} \\
+        Folding results can be displayed in browser, or more commonly, a link can be sent to the user on completion of the batch job.\autocite{B19} Images of the secondary structures include base colouring to indicate the confidence in each base-paring predicted.\autocite{B19} Other output values provide overviews of the thermodynamic results of the analysis as well as allowing format customization, structure dot-plots and other useful bits of information.\autocite{B19}
+    
+
+    \end{enumerate}
+    
+\section{Tool Applications}
+
+    \subsection{NCBI Nucleotide Database}
+
+    See documentation.\autocite{B18}
+
+    \subsection{mFold}
+
+        \subsubsection{Investigating the Secondary Structure of Single Stranded Viral Nucleic Acids}
+
+        Similar to protein structure prediction, the secondary structure of an RNA sequence can be used to infer properties of high level organization.\autocite{L8} Specifically, secondary determines tertiary structure which subsequently determines function of a given nucleic acid molecule.\autocite{L8} Exploring the structural motifs displayed in secondary structure may provide insights into how single-stranded nucleic acids made within a host cell influence the function of the cell, enabling viral high-jacking of the cellular machinery to reproduce. Understanding the function of such macromolecules can provide insight into the pathways utilized by a given viral species as well as providing potential targets for intervention in viral infections.

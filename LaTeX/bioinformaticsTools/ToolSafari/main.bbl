@@ -1,0 +1,1401 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{T1}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 1: Sequence Alignment}
+      \field{year}{2018}
+    \endentry
+    \entry{B2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=76379663fea7632bbf60a09da1cc1c79}{%
+           family={Biotechnology\bibnamedelima Information},
+           familyi={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={National\bibnamedelima Institute},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{76379663fea7632bbf60a09da1cc1c79}
+      \strng{fullhash}{76379663fea7632bbf60a09da1cc1c79}
+      \strng{bibnamehash}{76379663fea7632bbf60a09da1cc1c79}
+      \strng{authorbibnamehash}{76379663fea7632bbf60a09da1cc1c79}
+      \strng{authornamehash}{76379663fea7632bbf60a09da1cc1c79}
+      \strng{authorfullhash}{76379663fea7632bbf60a09da1cc1c79}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Library of Medicine}
+      \field{title}{BLAST Program Selection Guide}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://blast.ncbi.nlm.nih.gov/BLAST_guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://blast.ncbi.nlm.nih.gov/BLAST_guide.pdf
+      \endverb
+    \endentry
+    \entry{B1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=19a0d2b7ddd520b59d9e0765084f474d}{%
+           family={Persemlidis},
+           familyi={P\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=82c531f437b8688619a51afb88b4e3e8}{%
+           family={Fondon},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \strng{fullhash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \strng{bibnamehash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \strng{authorbibnamehash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \strng{authornamehash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \strng{authorfullhash}{57683476a8cf3ae039e6fe1d97461a1e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genome Biology}
+      \field{title}{Having a BLAST with bioinformatics (and avoiding BLASTphemy)}
+      \field{year}{2001}
+      \verb{doi}
+      \verb https://doi.org/10.1186/gb-2001-2-10-reviews2002
+      \endverb
+    \endentry
+    \entry{L1}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 1: Sequence Alignment}
+      \field{year}{2018}
+    \endentry
+    \entry{T2}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 2: Dynamic Programming}
+      \field{year}{2018}
+    \endentry
+    \entry{B3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9823315913f8abc1fb7b85c8362cbcf3}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Gurmukh},
+           giveni={G\bibinitperiod}}}%
+        {{hash=55b3f1ebec2181a519653c061cbb7c6a}{%
+           family={Siddiqui},
+           familyi={S\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{758b2738f0aa02a0bf73f2a99201411f}
+      \strng{fullhash}{758b2738f0aa02a0bf73f2a99201411f}
+      \strng{bibnamehash}{758b2738f0aa02a0bf73f2a99201411f}
+      \strng{authorbibnamehash}{758b2738f0aa02a0bf73f2a99201411f}
+      \strng{authornamehash}{758b2738f0aa02a0bf73f2a99201411f}
+      \strng{authorfullhash}{758b2738f0aa02a0bf73f2a99201411f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Educational Technology Systems}
+      \field{number}{4}
+      \field{title}{Microsoft Excel Software Usage for Teaching Science and Engineering Curriculum}
+      \field{volume}{37}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.2190/et.37.4.e
+      \endverb
+    \endentry
+    \entry{B4}{article}{}
+      \name{author}{1}{}{%
+        {{hash=74ddd1fdb5059cee25de49f176fd45da}{%
+           family={Global},
+           familyi={G\bibinitperiod},
+           given={GCF},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ddd1fdb5059cee25de49f176fd45da}
+      \strng{fullhash}{74ddd1fdb5059cee25de49f176fd45da}
+      \strng{bibnamehash}{74ddd1fdb5059cee25de49f176fd45da}
+      \strng{authorbibnamehash}{74ddd1fdb5059cee25de49f176fd45da}
+      \strng{authornamehash}{74ddd1fdb5059cee25de49f176fd45da}
+      \strng{authorfullhash}{74ddd1fdb5059cee25de49f176fd45da}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GCF LearnFree.org}
+      \field{title}{Excel 2010 Creating Complex Formulas}
+      \field{year}{2018}
+    \endentry
+    \entry{L2}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 2: Dynamic Programming}
+      \field{year}{2018}
+    \endentry
+    \entry{T3}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 3: Database Searching}
+      \field{year}{2018}
+    \endentry
+    \entry{B5}{article}{}
+      \name{author}{1}{}{%
+        {{hash=309cf2b553e1196252a54d80a32d2d78}{%
+           family={Hamosh},
+           familyi={H\bibinitperiod},
+           given={et\bibnamedelima al.},
+           giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           suffix={A.},
+           suffixi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{309cf2b553e1196252a54d80a32d2d78}
+      \strng{fullhash}{309cf2b553e1196252a54d80a32d2d78}
+      \strng{bibnamehash}{309cf2b553e1196252a54d80a32d2d78}
+      \strng{authorbibnamehash}{309cf2b553e1196252a54d80a32d2d78}
+      \strng{authornamehash}{309cf2b553e1196252a54d80a32d2d78}
+      \strng{authorfullhash}{309cf2b553e1196252a54d80a32d2d78}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{Database issue}
+      \field{title}{Online Mendelian Inheritance in Man (OMIM), a knowledgebase of human genes and genetic disorders}
+      \field{volume}{33}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.1093/nar/gki033
+      \endverb
+    \endentry
+    \entry{L3}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 3: Database Searching}
+      \field{year}{2018}
+    \endentry
+    \entry{T4}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 4: Multiple Sequence Alignment}
+      \field{year}{2018}
+    \endentry
+    \entry{B7}{article}{}
+      \name{author}{12}{}{%
+        {{hash=f500ca87db61d52e4cf20c69c407c3e7}{%
+           family={Sievers},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=563be2531931fde1dc42f7a5b4ed0c18}{%
+           family={Wilm},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=602c1922a21aff6eefda9d6278f2d1a6}{%
+           family={Dineen},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0d81a88b8ccd49a6d826cd21f425e9ba}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=728b7ae41b0eb7490f1da4e5c715feaf}{%
+           family={Karplus},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=82083b9908d6e30a4dc9dc2c603e93ba}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6eff54b789944e99ab487ea5945a3fbd}{%
+           family={Lopez},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=518c5ba45496c526fd8359009cf3e2c0}{%
+           family={McWilliam},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=36f3d1fb09c48675c0fab9efad3e6630}{%
+           family={Remmert},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=894b76da4b3f545b9f8260dbf407954e}{%
+           family={Soding},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b9fbcb268fa9f138a83be1c923c5e943}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=bbc8b7a8b64cad9ab969443d97204ab3}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{4eb0496d8144a9c2aaa441c80efb7074}
+      \strng{fullhash}{6495ef74fc5cc499158071fac7cdd379}
+      \strng{bibnamehash}{4eb0496d8144a9c2aaa441c80efb7074}
+      \strng{authorbibnamehash}{4eb0496d8144a9c2aaa441c80efb7074}
+      \strng{authornamehash}{4eb0496d8144a9c2aaa441c80efb7074}
+      \strng{authorfullhash}{6495ef74fc5cc499158071fac7cdd379}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Systems Biology}
+      \field{number}{1}
+      \field{title}{Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega}
+      \field{volume}{7}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1038/msb.2011.75
+      \endverb
+    \endentry
+    \entry{B6}{article}{}
+      \name{author}{1}{}{%
+        {{hash=baaf3b3da7f8e4f0379626e68cfeb00b}{%
+           family={Duggan},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \strng{fullhash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \strng{bibnamehash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \strng{authorbibnamehash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \strng{authornamehash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \strng{authorfullhash}{baaf3b3da7f8e4f0379626e68cfeb00b}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EMBL-EBI}
+      \field{title}{Culstal Omega}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.ebi.ac.uk/seqdb/confluence/display/THD/Clustal+Omega
+      \endverb
+      \verb{url}
+      \verb https://www.ebi.ac.uk/seqdb/confluence/display/THD/Clustal+Omega
+      \endverb
+    \endentry
+    \entry{L4}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 4: Multiple Sequence Alignment}
+      \field{year}{2018}
+    \endentry
+    \entry{T5}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 5: Phylogenetics}
+      \field{year}{2018}
+    \endentry
+    \entry{B9}{article}{}
+      \name{author}{1}{}{%
+        {{hash=32c29d1f380ea577cf07dd3fc587ea20}{%
+           family={Felsensetin},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \strng{fullhash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \strng{bibnamehash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \strng{authorbibnamehash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \strng{authornamehash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \strng{authorfullhash}{32c29d1f380ea577cf07dd3fc587ea20}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Health Research Institute}
+      \field{title}{fNeighbor}
+      \field{year}{2004}
+    \endentry
+    \entry{L5}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 5: Phylogenetics}
+      \field{year}{2018}
+    \endentry
+    \entry{T6}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 6: Phylogenetics}
+      \field{year}{2018}
+    \endentry
+    \entry{B12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=568ff9ae1a4c0edf1ab8336b84812d30}{%
+           family={Vincze},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \strng{fullhash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \strng{bibnamehash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \strng{authorbibnamehash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \strng{authornamehash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \strng{authorfullhash}{568ff9ae1a4c0edf1ab8336b84812d30}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{13}
+      \field{title}{NEBcutter: a program to cleave DNA with restriction enzymes}
+      \field{volume}{31}
+      \field{year}{2003}
+      \field{pages}{3688\bibrangedash 3691}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/nar/gkg526
+      \endverb
+    \endentry
+    \entry{L6}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 6: Gene Prediction}
+      \field{year}{2018}
+    \endentry
+    \entry{T7}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 7: Protein Structure Prediction}
+      \field{year}{2018}
+    \endentry
+    \entry{B13}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a7e0fa70cda5fa4a61db41809544b7c0}{%
+           family={Berman},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \strng{fullhash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \strng{bibnamehash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \strng{authorbibnamehash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \strng{authornamehash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \strng{authorfullhash}{a7e0fa70cda5fa4a61db41809544b7c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{1}
+      \field{title}{The Protein Data Bank}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/nar/28.1.235
+      \endverb
+    \endentry
+    \entry{B14}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a8d9e73a5881e62885af1ba7c694b586}{%
+           family={Martz},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8d9e73a5881e62885af1ba7c694b586}
+      \strng{fullhash}{a8d9e73a5881e62885af1ba7c694b586}
+      \strng{bibnamehash}{a8d9e73a5881e62885af1ba7c694b586}
+      \strng{authorbibnamehash}{a8d9e73a5881e62885af1ba7c694b586}
+      \strng{authornamehash}{a8d9e73a5881e62885af1ba7c694b586}
+      \strng{authorfullhash}{a8d9e73a5881e62885af1ba7c694b586}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics.org}
+      \field{title}{What is FirstGlance in Jmol}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.bioinformatics.org/firstglance/fgij/whatis.htm
+      \endverb
+      \verb{url}
+      \verb https://www.bioinformatics.org/firstglance/fgij/whatis.htm
+      \endverb
+    \endentry
+    \entry{B15}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3f5f2d064275270f946fff614f447695}{%
+           family={Waterhouse},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=576452f85aa87f2c057793940f04cbba}{%
+           family={Bertoni},
+           familyi={B\bibinitperiod},
+           given={Martino},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e17c8faf02e044a87dc3538d9eaa17ad}{%
+           family={Bienert},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1ced0d8807b5d18b90fa0eff110760ec}{%
+           family={Studer},
+           familyi={S\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=295ee904800ded135ff8b9950d11cc73}{%
+           family={Tauriello},
+           familyi={T\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{80e07fca06d495009fa6c4bfe134ed9c}
+      \strng{fullhash}{8aa2928d473f9eec72b8c2c771fc8746}
+      \strng{bibnamehash}{80e07fca06d495009fa6c4bfe134ed9c}
+      \strng{authorbibnamehash}{80e07fca06d495009fa6c4bfe134ed9c}
+      \strng{authornamehash}{80e07fca06d495009fa6c4bfe134ed9c}
+      \strng{authorfullhash}{8aa2928d473f9eec72b8c2c771fc8746}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{W1}
+      \field{title}{SWISS-MODEL: homology modelling of protein structures and complexes}
+      \field{volume}{46}
+      \field{year}{2018}
+      \field{pages}{W296\bibrangedash W303}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gky427
+      \endverb
+    \endentry
+    \entry{B16}{article}{}
+      \name{author}{1}{}{%
+        {{hash=196db2372809cb30b0d344f33e21c397}{%
+           family={Europe},
+           familyi={E\bibinitperiod},
+           given={Protein\bibnamedelimb Data\bibnamedelima Bank},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{196db2372809cb30b0d344f33e21c397}
+      \strng{fullhash}{196db2372809cb30b0d344f33e21c397}
+      \strng{bibnamehash}{196db2372809cb30b0d344f33e21c397}
+      \strng{authorbibnamehash}{196db2372809cb30b0d344f33e21c397}
+      \strng{authornamehash}{196db2372809cb30b0d344f33e21c397}
+      \strng{authorfullhash}{196db2372809cb30b0d344f33e21c397}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PDBeFold}
+      \field{title}{PDBeFold Secondary Structure Matching}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.ebi.ac.uk/pdbe/docs/Tutorials/workshop_tutorials/PDBefold.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ebi.ac.uk/pdbe/docs/Tutorials/workshop_tutorials/PDBefold.pdf
+      \endverb
+    \endentry
+    \entry{B17}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad7a85f7c19e8702a2de321d1f4c691c}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David\bibnamedelima T},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \strng{fullhash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \strng{bibnamehash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \strng{authorbibnamehash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \strng{authornamehash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \strng{authorfullhash}{ad7a85f7c19e8702a2de321d1f4c691c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{number}{2}
+      \field{title}{Protein secondary structure prediction based on position-specific scoring matrices 1 1Edited by G. Von Heijne}
+      \field{volume}{292}
+      \field{year}{1999}
+      \field{pages}{195\bibrangedash 202}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1006/jmbi.1999.3091
+      \endverb
+    \endentry
+    \entry{L7}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 7: Protein Structure Prediction}
+      \field{year}{2018}
+    \endentry
+    \entry{T8}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 8: Secondary Structure Prediction}
+      \field{year}{2018}
+    \endentry
+    \entry{B18}{book}{}
+      \name{author}{4}{}{%
+        {{hash=c6cd6546700e1f897814a83917fbe961}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b9942fc3628527ef09a6f86ce91b69ba}{%
+           family={Landrum},
+           familyi={L\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=add33d35749161951fba9a83ebba2ae2}{%
+           family={Mizrachi},
+           familyi={M\bibinitperiod},
+           given={Ilene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=279d35bfc04ec87ba14cd260302fe9e0}{%
+           family={Weisemann},
+           familyi={W\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Center for Biotechnology Information}%
+      }
+      \strng{namehash}{c42e37b6b3015936130379a415a5d2a4}
+      \strng{fullhash}{bdc2161fab92f0eedb9d126e7a46e64f}
+      \strng{bibnamehash}{c42e37b6b3015936130379a415a5d2a4}
+      \strng{authorbibnamehash}{c42e37b6b3015936130379a415a5d2a4}
+      \strng{authornamehash}{c42e37b6b3015936130379a415a5d2a4}
+      \strng{authorfullhash}{bdc2161fab92f0eedb9d126e7a46e64f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entrez Sequences Quick Start}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK44863/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK44863/
+      \endverb
+    \endentry
+    \entry{B19}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a1e0556ec0c63d2e1fafdac15b473f08}{%
+           family={Zuker},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \strng{fullhash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \strng{bibnamehash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \strng{authorbibnamehash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \strng{authornamehash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \strng{authorfullhash}{a1e0556ec0c63d2e1fafdac15b473f08}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The abbreviated name, 'mfold web server', describes a number of closely related software applications available on the World Wide Web (WWW) for the prediction of the secondary structure of single stranded nucleic acids. The objective of this web server is to provide easy access to RNA and DNA folding and hybridization software to the scientific community at large. By making use of universally available web GUIs (Graphical User Interfaces), the server circumvents the problem of portability of this software. Detailed output, in the form of structure plots with or without reliability information, single strand frequency plots and 'energy dot plots', are available for the folding of single sequences. A variety of 'bulk' servers give less information, but in a shorter time and for up to hundreds of sequences at once. The portal for the mfold web server is http://www.bioinfo.rpi.edu/applications/mfold. This URL will be referred to as 'MFOLDROOT'.}
+      \field{issn}{1362-4962}
+      \field{issue}{13}
+      \field{journaltitle}{Nucleic acids research}
+      \field{title}{Mfold web server for nucleic acid folding and hybridization prediction.}
+      \field{volume}{31}
+      \field{year}{2003}
+      \field{pages}{3406\bibrangedash 3415}
+      \range{pages}{10}
+      \keyw{Base Sequence; Computer Graphics; DNA,chemistry; DNA,Single-Stranded,chemistry; Databases,Nucleic Acid; Internet; Models,Molecular; Nucleic Acid Conformation; Nucleic Acid Denaturation; Nucleic Acid Hybridization; RNA,chemistry; Software; Thermodynamics; User-Computer Interface}
+    \endentry
+    \entry{L8}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 8: Secondary Structure Prediction}
+      \field{year}{2018}
+    \endentry
+    \entry{T9}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 9: Gene Expression Analysis}
+      \field{year}{2018}
+    \endentry
+    \entry{B20}{article}{}
+      \name{author}{1}{}{%
+        {{hash=db71393b74256603a512dd07818e01f8}{%
+           family={NCBI},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{db71393b74256603a512dd07818e01f8}
+      \strng{fullhash}{db71393b74256603a512dd07818e01f8}
+      \strng{bibnamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authorbibnamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authornamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authorfullhash}{db71393b74256603a512dd07818e01f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gene Expression Omnibus}
+      \field{title}{GEO Documentation}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/geo/info/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/geo/info/
+      \endverb
+    \endentry
+    \entry{B21}{article}{}
+      \name{author}{1}{}{%
+        {{hash=db71393b74256603a512dd07818e01f8}{%
+           family={NCBI},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{db71393b74256603a512dd07818e01f8}
+      \strng{fullhash}{db71393b74256603a512dd07818e01f8}
+      \strng{bibnamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authorbibnamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authornamehash}{db71393b74256603a512dd07818e01f8}
+      \strng{authorfullhash}{db71393b74256603a512dd07818e01f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gene Expression Omnibus}
+      \field{title}{About GEO2R}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
+      \endverb
+    \endentry
+    \entry{L9}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 9: Gene Expression Analysis}
+      \field{year}{2018}
+    \endentry
+    \entry{T10}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topic 10: Systems Biology}
+      \field{year}{2018}
+    \endentry
+    \entry{L10}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93d970f35dae9ecb6bb9e83eaa3a97f1}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{editorbibnamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editornamehash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \strng{editorfullhash}{93d970f35dae9ecb6bb9e83eaa3a97f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lab 10: Systems Biology}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,66 @@
+
+\chapter{Database Searching} 
+
+\label{Chapter3}
+
+\section{Concepts Discussed}
+
+    \subsection{Heuristic Algorithms}
+
+    See lecture notes.\autocite{T3}
+
+    \subsection{Types of Databases}
+
+    See lecture notes.\autocite{T3}
+
+    \subsection{Classification of Databases}
+
+    See lecture notes.\autocite{T3}
+
+\section{Tools Discussed}
+    
+    \subsection{Primary Databases}
+
+    See lecture notes.\autocite{T3}
+
+    \subsection{Metadatabases}
+
+        \subsubsection{Online Mendelian Inheritance in Man Database}
+
+        OMIM is designed to be a knowledge-base for physicians and clinical genetics researchers which is comprehensive, authoritative, and timely.\autocite{B5} The system was built to support human genetics research, eduction, and clinical genetics practice.\autocite{B5} Curated by Johns Hopkins University Medical School and updated daily, the web-service provides a wealth of compiled information about clinically relevant phenotypes and their associated clinical manifestation as well as molecular and physiological manifestations.\autocite{B5} It is accesible from any page of the NCBI Entrez suite, along with on the OMIM homepage. The service acts as a one-stop shop for collated information about clinically relevant genes.
+
+        \subsubsection{Ensembl}
+
+        A genome browser used to search across multiple databases. \autocite{T3}
+
+        \subsubsection{NCBI}
+
+        A genome browser used to search across multiple databases.\autocite{T3}
+
+\section{Tool Usages}
+
+    \subsection{OMIM Database}
+    The OMIM web-page has a simple layout with only one text box to input a query. Accepted query types including MIM number, disorder name, gene name/symbol or plain English.\autocite{B5} Entries in OMIM returned from a search are categorized into five symbols which represent whether they contain information on genes, phenotypes or both:\autocite{B5}
+
+        \begin{enumerate}
+            
+            \item \textbf{\texttt{*}} Indicates an entry containing a know sequenced gene.\autocite{B5}
+
+            \item \textbf{\#} Indicates an entry is descriptive, containing information about phenotype; these entries may not represent a unique genetic locus.\autocite{B5}
+
+            \item \textbf{\texttt{+}} Indicates an entry contains a phenotype description along with information about a known gene.\autocite{B5}
+
+            \item \textbf{\%} Indicates an entry for which the description matches a confirmed Mendelian phenotype/locus where the underlying molecular mechanism is unknown.\autocite{B5}
+
+            \item \textbf{\^} Indicates an entry was removed or merged with another entry in the database.\autocite{B5}
+
+            \item An entry without a symbol represent a gene with a suspected, but not confirmed Mendelian basis or that it may be a duplicate/redundant phenotype.\autocite{B5}
+        \end{enumerate}
+
+The page returned from an OMIM query displays variable amounts of information, but high quality entries usually contain information about the gene to phenotype relationships as well as phenotypic and genotypic manifestations with through and linked references. Perhaps the most valuable feature of this database is the wealth of links provided in the right hand external links menu. For there one can access links to external sources which may provide more detailed descriptions of some facet of the MIM entry.\autocite{B5}
+
+\section{Tool Applications}
+
+    \subsection{OMIM Database}
+        \subsubsection{Identifying Genes Associate with Disease}
+        OMIM is a powerful search tool to determine what genes play a role in the development of genetic pathology. By searching the name of a disease, one is able to see associated genes; conversely, by searching a gene name, you can identify if it is known to cause genetic pathology.\autocite{L3} From within a gene or disease entry in OMIM you can navigate to numerous external resources to allow rapid accumulation of specific information about the gene or phenotype.\autocite{B5} The real utility for this database tool is to rapidly assemble information from diverse database entries for easy access on one web-page. This will be similar for other gene browsers, making them an essential tool in the bioinformaticians tool box.

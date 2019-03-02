@@ -1,0 +1,216 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Sequence Alignment}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Concepts Discussed}{1}{section.2}
+\contentsline {subsection}{\numberline {1.1.1}PAM Matrices}{1}{subsection.3}
+\contentsline {subsection}{\numberline {1.1.2}BLOSSUM}{1}{subsection.4}
+\contentsline {section}{\numberline {1.2}Tools Discussed}{1}{section.5}
+\contentsline {subsection}{\numberline {1.2.1}BLAST}{1}{subsection.6}
+\contentsline {subsubsection}{\numberline {1.2.1.1}BLASTn}{2}{subsubsection.11}
+\contentsline {subsubsection}{\numberline {1.2.1.2}BLASTp}{2}{subsubsection.14}
+\contentsline {section}{\numberline {1.3}Tool Usage}{2}{section.16}
+\contentsline {subsection}{\numberline {1.3.1}BLASTp}{2}{subsection.17}
+\contentsline {section}{\numberline {1.4}Tool Applications}{3}{section.25}
+\contentsline {subsection}{\numberline {1.4.1}BLASTp}{3}{subsection.26}
+\contentsline {chapter}{\numberline {2}Dynamic Programming}{4}{chapter.27}
+\contentsline {section}{\numberline {2.1}Concepts Discussed}{4}{section.28}
+\contentsline {subsection}{\numberline {2.1.1}Needleman-Wunsch Algorithm}{4}{subsection.29}
+\contentsline {subsection}{\numberline {2.1.2}Smith-Waterman Algorithm}{4}{subsection.30}
+\contentsline {section}{\numberline {2.2}Tools Discussed}{4}{section.31}
+\contentsline {subsection}{\numberline {2.2.1}Microsoft Excel}{4}{subsection.32}
+\contentsline {section}{\numberline {2.3}Tool Usages}{4}{section.33}
+\contentsline {subsection}{\numberline {2.3.1}Microsoft Excel}{4}{subsection.34}
+\contentsline {section}{\numberline {2.4}Tool Applications}{5}{section.35}
+\contentsline {subsection}{\numberline {2.4.1}Microsoft Excel}{5}{subsection.36}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Calculating Substitution Matrices}{5}{subsubsection.37}
+\contentsline {chapter}{\numberline {3}Database Searching}{6}{chapter.38}
+\contentsline {section}{\numberline {3.1}Concepts Discussed}{6}{section.39}
+\contentsline {subsection}{\numberline {3.1.1}Heuristic Algorithms}{6}{subsection.40}
+\contentsline {subsection}{\numberline {3.1.2}Types of Databases}{6}{subsection.41}
+\contentsline {subsection}{\numberline {3.1.3}Classification of Databases}{6}{subsection.42}
+\contentsline {section}{\numberline {3.2}Tools Discussed}{6}{section.43}
+\contentsline {subsection}{\numberline {3.2.1}Primary Databases}{6}{subsection.44}
+\contentsline {subsection}{\numberline {3.2.2}Metadatabases}{6}{subsection.45}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Online Mendelian Inheritance in Man Database}{6}{subsubsection.46}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Ensembl}{6}{subsubsection.47}
+\contentsline {subsubsection}{\numberline {3.2.2.3}NCBI}{6}{subsubsection.48}
+\contentsline {section}{\numberline {3.3}Tool Usages}{7}{section.49}
+\contentsline {subsection}{\numberline {3.3.1}OMIM Database}{7}{subsection.50}
+\contentsline {section}{\numberline {3.4}Tool Applications}{7}{section.57}
+\contentsline {subsection}{\numberline {3.4.1}OMIM Database}{7}{subsection.58}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Identifying Genes Associate with Disease}{7}{subsubsection.59}
+\contentsline {chapter}{\numberline {4}Multiple Sequence Alignment}{8}{chapter.60}
+\contentsline {section}{\numberline {4.1}Concepts Discussed}{8}{section.61}
+\contentsline {subsection}{\numberline {4.1.1}Position Specific Scoring Matrices (PSSMs)}{8}{subsection.62}
+\contentsline {subsection}{\numberline {4.1.2}Position Specific Iterated (PSI) BLAST}{8}{subsection.63}
+\contentsline {subsection}{\numberline {4.1.3}Cluster Alignment (CLUSTAL) Algorithms}{8}{subsection.64}
+\contentsline {section}{\numberline {4.2}Tools Discussed}{8}{section.65}
+\contentsline {subsection}{\numberline {4.2.1}BlastN}{8}{subsection.66}
+\contentsline {subsection}{\numberline {4.2.2}ClustalW}{8}{subsection.67}
+\contentsline {subsection}{\numberline {4.2.3}ClustalOmega}{8}{subsection.68}
+\contentsline {section}{\numberline {4.3}Tool Usage}{9}{section.69}
+\contentsline {subsection}{\numberline {4.3.1}ClustalOmega}{9}{subsection.70}
+\contentsline {section}{\numberline {4.4}Tool Application}{9}{section.77}
+\contentsline {subsection}{\numberline {4.4.1}ClustalOmega}{9}{subsection.78}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Identifying Gene Transfer Between Organisms}{9}{subsubsection.79}
+\contentsline {chapter}{\numberline {5}Evolutionary Processes}{10}{chapter.80}
+\contentsline {section}{\numberline {5.1}Concepts Discussed}{10}{section.81}
+\contentsline {subsection}{\numberline {5.1.1}Phylogenetic Trees}{10}{subsection.82}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Gene Trees}{10}{subsubsection.83}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Species Trees}{10}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {5.1.1.3}Tree Roots}{10}{subsubsection.85}
+\contentsline {subsubsection}{\numberline {5.1.1.4}Nodes}{10}{subsubsection.86}
+\contentsline {subsubsection}{\numberline {5.1.1.5}Tree Topologies}{10}{subsubsection.87}
+\contentsline {subsection}{\numberline {5.1.2}Clustering Methods}{10}{subsection.88}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Unweighted Pair-Group Method Arithmetic Mean}{10}{subsubsection.89}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Fitch-Margoliash Method}{10}{subsubsection.90}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Neighbour-Joining Method}{10}{subsubsection.91}
+\contentsline {section}{\numberline {5.2}Tools Discussed}{11}{section.92}
+\contentsline {subsection}{\numberline {5.2.1}Phylogeny.fr}{11}{subsection.93}
+\contentsline {subsection}{\numberline {5.2.2}Fneighbor}{11}{subsection.94}
+\contentsline {section}{\numberline {5.3}Tool Usages}{11}{section.95}
+\contentsline {subsection}{\numberline {5.3.1}Phylogeny.fr}{11}{subsection.96}
+\contentsline {subsubsection}{\numberline {5.3.1.1}"One Click"}{11}{subsubsection.97}
+\contentsline {subsubsection}{\numberline {5.3.1.2}"Advanced"}{12}{subsubsection.98}
+\contentsline {subsubsection}{\numberline {5.3.1.3}"A la Carte'}{12}{subsubsection.99}
+\contentsline {subsection}{\numberline {5.3.2}Fneighbor}{12}{subsection.100}
+\contentsline {section}{\numberline {5.4}Tool Applications}{12}{section.101}
+\contentsline {subsection}{\numberline {5.4.1}Phylogeny.fr}{12}{subsection.102}
+\contentsline {subsubsection}{\numberline {5.4.1.1}Determining The Degree of Relatedness Between Species on the Tree of Life}{12}{subsubsection.103}
+\contentsline {subsection}{\numberline {5.4.2}Fneighbor}{12}{subsection.104}
+\contentsline {chapter}{\numberline {6}Gene Prediction}{13}{chapter.105}
+\contentsline {section}{\numberline {6.1}Concepts Discussed}{13}{section.106}
+\contentsline {subsection}{\numberline {6.1.1}Open Reading Frames}{13}{subsection.107}
+\contentsline {subsubsection}{\numberline {6.1.1.1}Prokaryotic ORFs}{13}{subsubsection.108}
+\contentsline {subsection}{\numberline {6.1.2}Upstream Coding Sequence}{13}{subsection.109}
+\contentsline {subsection}{\numberline {6.1.3}Genome Features}{13}{subsection.110}
+\contentsline {subsubsection}{\numberline {6.1.3.1}Prokaryotes}{13}{subsubsection.111}
+\contentsline {subsubsection}{\numberline {6.1.3.2}Eukaryotes}{13}{subsubsection.112}
+\contentsline {subsection}{\numberline {6.1.4}Gene Finding Schemes}{13}{subsection.113}
+\contentsline {subsubsection}{\numberline {6.1.4.1}Types of Algorithms}{13}{subsubsection.114}
+\contentsline {subsubsection}{\numberline {6.1.4.2}Confirming Predictions}{13}{subsubsection.115}
+\contentsline {subsection}{\numberline {6.1.5}Gene Ontology}{13}{subsection.116}
+\contentsline {subsubsection}{\numberline {6.1.5.1}Syntenic Regions}{13}{subsubsection.117}
+\contentsline {section}{\numberline {6.2}Tools Discussed}{14}{section.118}
+\contentsline {subsection}{\numberline {6.2.1}UniProt}{14}{subsection.119}
+\contentsline {subsection}{\numberline {6.2.2}NEBcutter}{14}{subsection.120}
+\contentsline {subsection}{\numberline {6.2.3}ORFfinder}{14}{subsection.121}
+\contentsline {section}{\numberline {6.3}Tool Applications}{14}{section.122}
+\contentsline {subsection}{\numberline {6.3.1}UniProt}{14}{subsection.123}
+\contentsline {subsection}{\numberline {6.3.2}NEBcutter}{14}{subsection.124}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Gene Discovery in DNA Sequences}{14}{subsubsection.125}
+\contentsline {subsection}{\numberline {6.3.3}ORFfinder}{14}{subsection.126}
+\contentsline {chapter}{\numberline {7}Protein Structure Prediction}{15}{chapter.127}
+\contentsline {section}{\numberline {7.1}Concepts Discussed}{15}{section.128}
+\contentsline {subsection}{\numberline {7.1.1}Experimental 3D Structure Determination}{15}{subsection.129}
+\contentsline {subsubsection}{\numberline {7.1.1.1}X-Ray Crystallography}{15}{subsubsection.130}
+\contentsline {subsubsection}{\numberline {7.1.1.2}NMR Spectroscopy}{15}{subsubsection.131}
+\contentsline {subsection}{\numberline {7.1.2}Background}{15}{subsection.132}
+\contentsline {subsubsection}{\numberline {7.1.2.1}Definitions}{15}{subsubsection.133}
+\contentsline {subsubsection}{\numberline {7.1.2.2}Protein Structures}{15}{subsubsection.134}
+\contentsline {subsubsection}{\numberline {7.1.2.3}Secondary Structures}{15}{subsubsection.135}
+\contentsline {subsection}{\numberline {7.1.3}Properties of Stable Tertiary Structure}{15}{subsection.136}
+\contentsline {subsubsection}{\numberline {7.1.3.1}}{15}{subsubsection.137}
+\contentsline {section}{\numberline {7.2}Tools Discussed}{15}{section.138}
+\contentsline {subsection}{\numberline {7.2.1}RCSB PDB}{15}{subsection.139}
+\contentsline {subsection}{\numberline {7.2.2}FirstGlance in Jmol}{16}{subsection.140}
+\contentsline {subsection}{\numberline {7.2.3}SWISS-MODEL}{16}{subsection.141}
+\contentsline {subsection}{\numberline {7.2.4}PDBeFold}{16}{subsection.142}
+\contentsline {subsection}{\numberline {7.2.5}PSIPRED}{16}{subsection.143}
+\contentsline {section}{\numberline {7.3}Tool Usage}{16}{section.144}
+\contentsline {subsection}{\numberline {7.3.1}RCSB PDB}{16}{subsection.145}
+\contentsline {subsection}{\numberline {7.3.2}FirstGlance in Jmol}{16}{subsection.146}
+\contentsline {subsection}{\numberline {7.3.3}SWISS-MODEL}{17}{subsection.147}
+\contentsline {subsection}{\numberline {7.3.4}PDBeFold}{17}{subsection.153}
+\contentsline {subsection}{\numberline {7.3.5}PSIPRED}{17}{subsection.154}
+\contentsline {section}{\numberline {7.4}Tool Applications}{17}{section.155}
+\contentsline {subsection}{\numberline {7.4.1}RCSB PDB}{17}{subsection.156}
+\contentsline {subsection}{\numberline {7.4.2}FirstGlance in Jmol}{17}{subsection.157}
+\contentsline {subsection}{\numberline {7.4.3}SWISS-MODEL}{18}{subsection.158}
+\contentsline {subsubsection}{\numberline {7.4.3.1}Rational Drug Design}{18}{subsubsection.159}
+\contentsline {subsection}{\numberline {7.4.4}PDBeFold}{18}{subsection.160}
+\contentsline {subsection}{\numberline {7.4.5}PSIPRED}{18}{subsection.161}
+\contentsline {chapter}{\numberline {8}Secondary Structure Prediction}{19}{chapter.162}
+\contentsline {section}{\numberline {8.1}Concepts Discussed}{19}{section.163}
+\contentsline {subsection}{\numberline {8.1.1}Types of Prediction Methods}{19}{subsection.164}
+\contentsline {subsubsection}{\numberline {8.1.1.1}Statistical/Probabilistic}{19}{subsubsection.165}
+\contentsline {subsubsection}{\numberline {8.1.1.2}Knowledge-Based Methods}{19}{subsubsection.166}
+\contentsline {subsubsection}{\numberline {8.1.1.3}Machine Learning Methods}{19}{subsubsection.167}
+\contentsline {subsection}{\numberline {8.1.2}Deriving Parameters}{19}{subsection.168}
+\contentsline {subsubsection}{\numberline {8.1.2.1}Training Dataset}{19}{subsubsection.169}
+\contentsline {subsubsection}{\numberline {8.1.2.2}Testing Dataset}{19}{subsubsection.170}
+\contentsline {subsection}{\numberline {8.1.3}Assessing Accuracy of Prediction Programs}{19}{subsection.171}
+\contentsline {subsubsection}{\numberline {8.1.3.1}Q3}{19}{subsubsection.172}
+\contentsline {subsubsection}{\numberline {8.1.3.2}Mathews Correlations Coefficient}{19}{subsubsection.173}
+\contentsline {subsubsection}{\numberline {8.1.3.3}Fractional Overlap Segments}{20}{subsubsection.174}
+\contentsline {subsection}{\numberline {8.1.4}Compositional Preferences}{20}{subsection.175}
+\contentsline {subsection}{\numberline {8.1.5}Chau-Fasman Algorithm}{20}{subsection.176}
+\contentsline {subsection}{\numberline {8.1.6}Nearest-Neighbour Methods}{20}{subsection.177}
+\contentsline {subsection}{\numberline {8.1.7}Other Secondary Structures}{20}{subsection.178}
+\contentsline {subsubsection}{\numberline {8.1.7.1}Trans-membrane Proteins}{20}{subsubsection.179}
+\contentsline {subsubsection}{\numberline {8.1.7.2}Coiled-Coil Structures}{20}{subsubsection.180}
+\contentsline {subsubsection}{\numberline {8.1.7.3}Single Stranded RNA Molecules}{20}{subsubsection.181}
+\contentsline {subsection}{\numberline {8.1.8}Types of Nucleic Acid Secondary Structure}{20}{subsection.182}
+\contentsline {subsubsection}{\numberline {8.1.8.1}Stems}{20}{subsubsection.183}
+\contentsline {subsubsection}{\numberline {8.1.8.2}Loops}{20}{subsubsection.184}
+\contentsline {subsubsection}{\numberline {8.1.8.3}Pseudo-knots}{20}{subsubsection.185}
+\contentsline {subsubsection}{\numberline {8.1.8.4}Double Helix}{20}{subsubsection.186}
+\contentsline {section}{\numberline {8.2}Tools Discussed}{21}{section.187}
+\contentsline {subsection}{\numberline {8.2.1}NCBI Nucleotide Database}{21}{subsection.188}
+\contentsline {subsection}{\numberline {8.2.2}mFold}{21}{subsection.189}
+\contentsline {section}{\numberline {8.3}Tool Usage}{21}{section.190}
+\contentsline {subsection}{\numberline {8.3.1}NCBI Nucleotide Database}{21}{subsection.191}
+\contentsline {subsection}{\numberline {8.3.2}mFold}{21}{subsection.192}
+\contentsline {section}{\numberline {8.4}Tool Applications}{22}{section.198}
+\contentsline {subsection}{\numberline {8.4.1}NCBI Nucleotide Database}{22}{subsection.199}
+\contentsline {subsection}{\numberline {8.4.2}mFold}{22}{subsection.200}
+\contentsline {subsubsection}{\numberline {8.4.2.1}Investigating the Secondary Structure of Single Stranded Viral Nucleic Acids}{22}{subsubsection.201}
+\contentsline {chapter}{\numberline {9}Gene Expression Analysis}{23}{chapter.202}
+\contentsline {section}{\numberline {9.1}Concepts Discussed}{23}{section.203}
+\contentsline {subsection}{\numberline {9.1.1}Detecting Gene Expression}{23}{subsection.204}
+\contentsline {subsection}{\numberline {9.1.2}Expression Analysis}{23}{subsection.205}
+\contentsline {subsubsection}{\numberline {9.1.2.1}DNA Microarrays}{23}{subsubsection.206}
+\contentsline {subsubsection}{\numberline {9.1.2.2}Serial Analysis of Gene Expression \text {(SAGE)}}{23}{subsubsection.207}
+\contentsline {subsubsection}{\numberline {9.1.2.3}Minimal Information About a Microarray Experiment \text {(MIAME)}}{23}{subsubsection.208}
+\contentsline {subsubsection}{\numberline {9.1.2.4}Cluster Analysis}{23}{subsubsection.209}
+\contentsline {subsubsection}{\numberline {9.1.2.5}2D Gel Electrophoresis}{23}{subsubsection.210}
+\contentsline {subsubsection}{\numberline {9.1.2.6}Protein Microarrays}{23}{subsubsection.211}
+\contentsline {subsubsection}{\numberline {9.1.2.7}Mass Spectrometry \text {(MS)}}{23}{subsubsection.212}
+\contentsline {subsection}{\numberline {9.1.3}Expression Data Preparation}{23}{subsection.213}
+\contentsline {subsubsection}{\numberline {9.1.3.1}Background Correction}{23}{subsubsection.214}
+\contentsline {subsubsection}{\numberline {9.1.3.2}Normalization}{24}{subsubsection.215}
+\contentsline {subsubsection}{\numberline {9.1.3.3}Transformation}{24}{subsubsection.216}
+\contentsline {subsubsection}{\numberline {9.1.3.4}Differential Expression}{24}{subsubsection.217}
+\contentsline {section}{\numberline {9.2}Tools Discussed}{24}{section.218}
+\contentsline {subsection}{\numberline {9.2.1}NCBI Gene Expression Omnibus \text {(GEO)}}{24}{subsection.219}
+\contentsline {subsection}{\numberline {9.2.2}GEO2R}{24}{subsection.220}
+\contentsline {section}{\numberline {9.3}Tool Usage}{24}{section.221}
+\contentsline {subsection}{\numberline {9.3.1}NCBI GEO}{24}{subsection.222}
+\contentsline {subsection}{\numberline {9.3.2}GEO2R}{24}{subsection.223}
+\contentsline {section}{\numberline {9.4}Tool Applications}{25}{section.230}
+\contentsline {subsection}{\numberline {9.4.1}NCBI GEO}{25}{subsection.231}
+\contentsline {subsection}{\numberline {9.4.2}GEO2R}{25}{subsection.232}
+\contentsline {subsubsection}{\numberline {9.4.2.1}Analysis of Co-regulation to Place Genes in Molecular Pathways}{25}{subsubsection.233}
+\contentsline {chapter}{\numberline {10}Systems Biology}{26}{chapter.234}
+\contentsline {section}{\numberline {10.1}Concepts Discussed}{26}{section.235}
+\contentsline {subsection}{\numberline {10.1.1}Biological Systems}{26}{subsection.236}
+\contentsline {subsection}{\numberline {10.1.2}Constructing Networks}{26}{subsection.237}
+\contentsline {subsubsection}{\numberline {10.1.2.1}Bottom-Up Approach}{26}{subsubsection.238}
+\contentsline {subsubsection}{\numberline {10.1.2.2}Top-Down Approach}{26}{subsubsection.239}
+\contentsline {subsubsection}{\numberline {10.1.2.3}Middle-Out Approach}{26}{subsubsection.240}
+\contentsline {subsection}{\numberline {10.1.3}Network Model Features}{26}{subsection.241}
+\contentsline {subsubsection}{\numberline {10.1.3.1}Network Interactions}{26}{subsubsection.242}
+\contentsline {subsubsection}{\numberline {10.1.3.2}Network Architectures}{26}{subsubsection.243}
+\contentsline {subsubsection}{\numberline {10.1.3.3}Control Circuits}{26}{subsubsection.244}
+\contentsline {subsubsection}{\numberline {10.1.3.4}Robustness}{26}{subsubsection.245}
+\contentsline {subsubsection}{\numberline {10.1.3.5}Modularity}{27}{subsubsection.246}
+\contentsline {subsubsection}{\numberline {10.1.3.6}Redundancy}{27}{subsubsection.247}
+\contentsline {subsubsection}{\numberline {10.1.3.7}Bistable Switches}{27}{subsubsection.248}
+\contentsline {subsection}{\numberline {10.1.4}Practical Aspects of System Models}{27}{subsection.249}
+\contentsline {section}{\numberline {10.2}Tools Discussed}{27}{section.250}
+\contentsline {subsection}{\numberline {10.2.1}OmicsNet}{27}{subsection.251}
+\contentsline {section}{\numberline {10.3}Tool Usage}{27}{section.252}
+\contentsline {subsection}{\numberline {10.3.1}OmicsNet}{27}{subsection.253}
+\contentsline {section}{\numberline {10.4}Tool Applications}{28}{section.257}
+\contentsline {subsection}{\numberline {10.4.1}OmicsNet}{28}{subsection.258}
+\contentsline {subsubsection}{\numberline {10.4.1.1}Exploring Biological Networks}{28}{subsubsection.259}

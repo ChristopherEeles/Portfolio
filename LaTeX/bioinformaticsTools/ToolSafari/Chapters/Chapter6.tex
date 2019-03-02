@@ -1,0 +1,80 @@
+
+\chapter{Gene Prediction} 
+
+\label{Chapter6} 
+
+\section{Concepts Discussed}
+
+    \subsection{Open Reading Frames}
+
+    See lecture notes.\autocite{T6}
+
+        \subsubsection{Prokaryotic ORFs}
+
+        See lecture notes.\autocite{T6}
+
+    \subsection{Upstream Coding Sequence}
+
+    See lecture notes.\autocite{T6}
+
+    \subsection{Genome Features}
+
+    See lecture notes.\autocite{T6}
+
+        \subsubsection{Prokaryotes}
+
+        See lecture notes.\autocite{T6}
+
+        \subsubsection{Eukaryotes}
+
+        See lecture notes.\autocite{T6}
+
+    \subsection{Gene Finding Schemes}
+    
+        \subsubsection{Types of Algorithms}
+
+        See lecture notes.\autocite{T6}
+
+        \subsubsection{Confirming Predictions}
+
+        See lecture notes.\autocite{T6}
+
+    \subsection{Gene Ontology}
+
+    See lecture notes.\autocite{T6}
+
+        \subsubsection{Syntenic Regions}
+
+        See lecture notes.\autocite{T6}
+
+\section{Tools Discussed}
+
+    \subsection{UniProt}
+
+    A curated protein database. See \href{https://www.uniprot.org/help/about}{About UniProt} for more details.
+
+    \subsection{NEBcutter}
+
+    New England Biolabs cutter (NEBcutter) is an online tool for emph{in silico} simulated digestion of DNA sequences to provide a report of which enzymes in the REBASE database will cut the DNA sequence input.\autocite{B12} The tool can produce a range of reports including restriction enzyme maps, theoretical digests and links to the identified enzymes. As of version \href{http://www.labtools.us/nebcutter-v2-0/}{2.0} there is an included ORF identification and editing tool based on the simulated digestion.\autocite{B12} Options for restriction enzymes used include all known enzymes, subsets which are commercially available as well as sets which produce compatible termini.\autocite{B12} Such information can be applied in numerous fields ranging from recombinant protein production, experimental enzyme selection, as well as gene identification and function prediction. Given these applications NEBcutter constitutes a flexible tool for simulating protein digestion which a bioinformatician should consider whenever such functionality is required.
+    
+    \autocite{B12}
+
+    \subsection{ORFfinder}
+
+    A tool to identify open reading frames (ORFs) from FASTA files. See \href{https://doi.org/10.1016/S0378-1119(01)00819-8}{ORF-FINDER: a vector for high-throughput gene identification} for more details.
+
+\section{Tool Applications}
+
+\subsection{UniProt}
+
+See \href{https://www.uniprot.org/help/about}{About UniProt}.
+
+\subsection{NEBcutter}
+
+    \subsubsection{Gene Discovery in DNA Sequences}
+
+    Using the ORF functionality of NEBcutter, one is able to identify, sort, annotate and edit lists of potential ORFs from a DNA sequence.\autocite{L6} These genes can then be aligned to find similar structures within a set of genes with known functions, allowing hypotheses to be formed about the function of each ORF.\autocite{L6} This can be particularly useful for identifying ORFs conserved across species as well as for inferring the function of newly discovered genes. For example, identifying potential ORFs in an antibiotic resistance plasmid can be used to determine the extent of horizontal gene transfer in a population.\autocite{L6}
+
+\subsection{ORFfinder}
+
+See \href{https://doi.org/10.1016/S0378-1119(01)00819-8}{ORF-FINDER: a vector for high-throughput gene identification}.

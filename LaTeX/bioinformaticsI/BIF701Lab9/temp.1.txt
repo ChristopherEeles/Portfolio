@@ -1,0 +1,28 @@
+    \fbox{
+        \includegraphics[width=3in]{}
+        \caption{ATRA Related Transcript for Immunoglobin}
+        }
+        
+        \n\n
+    \fbox{    
+        \includegraphics[width=3in]{ATRAPGE.pdf}
+        \caption{ATRA Related Transcript for Prostaglandin E}
+        }
+        
+        
+\end{figure}
+
+\subsection{1,2,5-dihydroxy vitamin D3}
+
+\begin{figure}[h]
+    \centering
+
+    \fbox{
+        \multicolumn{2}{
+            \includegraphics[width=3in]{BothRAB20RAS.pdf},
+            \caption{D3 and ATRKA Related Transcript} &
+            \includegraphics[width=3in]{D3FAS.pdf}.,
+            \caption{ATRA Transcript for Prostaglandin E}
+                    }
+        }
+\end{figure}

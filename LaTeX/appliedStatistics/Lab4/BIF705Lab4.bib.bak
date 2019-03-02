@@ -1,0 +1,25 @@
+% Encoding: UTF-8
+
+@Article{2,
+  author  = {of Biological Sciences, School and Chemistry, Applied},
+  title   = {BIF705 Lab 4: Genetic Association studies in R},
+  journal = {Seneca College: Toronto, ON},
+  year    = {2019},
+}
+
+@Article{1,
+  author  = {of Biological Sciences, School and Chemistry, Applied},
+  title   = {BIF 705: Topic 4},
+  journal = {Seneca College: Toronto, ON},
+  year    = {2019},
+}
+
+@Article{3,
+  author  = {Warnes, Gregory R.},
+  title   = {genetics v1.3.8.1},
+  journal = {RDocumentation},
+  year    = {2019},
+  url     = {https://www.rdocumentation.org/packages/genetics/versions/1.3.8.1},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

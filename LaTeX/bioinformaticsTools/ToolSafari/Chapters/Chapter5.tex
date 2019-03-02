@@ -1,0 +1,90 @@
+
+\chapter{Evolutionary Processes} 
+
+\label{Chapter5}
+
+\section{Concepts Discussed}
+
+    \subsection{Phylogenetic Trees}
+        \subsubsection{Gene Trees}
+
+        See lecture notes.\autocite{T5}
+
+        \subsubsection{Species Trees}
+
+        See lecture notes.\autocite{T5}
+
+        \subsubsection{Tree Roots}
+
+        See lecture notes.\autocite{T5}
+           % \paragraph{Rooted Trees}
+           % \paragraph{Unrooted Trees}
+           % \paragraph{Fully Resolved Trees}
+           % \paragraph{Partially Resolved Trees}
+        \subsubsection{Nodes}
+
+        See lecture notes.\autocite{T5}
+           % \paragraph{Dichotomous/Bifurcating}
+           % \paragraph{Polytomous/Multifurcating}
+        \subsubsection{Tree Topologies}
+
+        See lecture notes.\autocite{T5}
+           %  \paragraph{Cladograms}
+           %  \paragraph{Additive Trees}
+           %  \paragraph{Ultrameric Trees}
+        
+
+    \subsection{Clustering Methods}
+       \subsubsection[Unweighted Pair-Group Method Arithmetic Mean]{Unweighted Pair-Group Method Arithmetic Mean (UPGMA)}
+
+       See lecture notes.\autocite{T5}
+
+       \subsubsection{Fitch-Margoliash Method}
+
+       See lecture notes.\autocite{T5}
+
+       \subsubsection{Neighbour-Joining Method}
+
+       See lecture notes.\autocite{T5}
+
+\section{Tools Discussed}
+
+    \subsection{Phylogeny.fr}
+
+    Considering the central role of phylogenetic analysis in many biological research areas, tools to automate such tasks are required.\autocite{B9} Phylogeny.fr provides a transparent platform to chain together tools for identification and alignment of homologous sequences along with phylogenetic reconstruction and graphical representation of the inferred tree.\autocite{B9} Phylogeny.fr provides an integrated platform for biologists unfamiliar with phylogenetic analysis to easily generate phylogenetic data and visualizations for use in their research.\autocite{B9}This robust, ready-to-use pipeline uses MUSCLE for multiple alignment, PhyML for tree building, and TreeDyn for tree rendering all with parameters preset to suit most studies.\autocite{B9} Inclusion of the "advanced" mode uses the same pipeline but allows the user to customize program parameters, while "a la carte" mode adds the ability to modify programs in the chain.\autocite{B9} These features make phylogeny.fr a powerful resource for phyolgenetic analysis for both general biologists and phyogenetic specialists. It should, therefore, be near the top of the tool list for bioinformatics applications in phylogeny and adjacent fields.
+    
+    \subsection{Fneighbor}
+
+    See documentation for \href{http://bioinfo.nhri.org.tw/cgi-bin/emboss/help/fneighbor}{fNeighbor}.
+
+\section{Tool Usages}
+
+    \subsection{Phylogeny.fr}
+
+    The phylogeny.fr program is available \href{http://www.phylogeny.fr/}{here}. Choice of the level of customization must be chosen from the main page.
+
+        \subsubsection{"One Click"}
+
+        After selecting "One Click" from the homepage an input page loads. The analysis may be given a name, files uploaded from a local disk or pasted from clipboard in FASTA, EMBL, or NEXUS file format. Using the default settings the program can handle 200 sequences of maximum length 2000 for proteins or 6000 for nucleic acids. Options exist to apply "Gblocks" to eliminate poorly aligned positions as well as an email box should you wish to retrieve your analysis at a later date. Due to selection of "One Click" the settings tab is not used.
+
+        Results of the analysis populate the phylogeny.fr tabs starting at number three. The default page after analysis shows the sequence alignment results colourized based on the score of each position. This alignment data can be downloaded in FASTA, Phylip, and Clustal formats. Tab four displays a curated version of the alignment with poorly scoring positions removed; the percent of the original alignment is listed under outputs along with options to download the curated alignment in FASTA or Phylip formats. The phylogeny tab, number five, displays the phylogenetic tree inferred from the alignment data as text. Under outputs the substitution model, gama shape parameter, number of categories and proportion of the sequence which is invariant are listed; download link are provided for the tree in Newick format as well as the statistics file. The final tab, number six, creates a graphical rendering of the tree, allowing customization of the colours, labels and style of tree displayed, with a wide range of options to customize your results to highlight relevant information. Images of the customized tree are available for download in PNG, PDF, SVG, TGF, Newick and text formats.
+
+        \subsubsection{"Advanced"}
+
+        \subsubsection{"A la Carte'}
+    
+    \subsection{Fneighbor}
+    
+    See documentation for \href{http://bioinfo.nhri.org.tw/cgi-bin/emboss/help/fneighbor}{fNeighbor}. 
+
+\section{Tool Applications}
+
+    \subsection{Phylogeny.fr}
+
+        \subsubsection{Determining The Degree of Relatedness Between Species on the Tree of Life}
+
+        FASTA files from different families and domains on the tree of life can be input to phylogeny.fr to yield alignment data and a phylogenetic tree of the degree of inter-species relation.\autocite{L5} This is based on the degree of genetic similarly in the alignments from the first program in the chain. The generated tree can be used to confirm suspected relations between species, or to infer the correct taxonomy for newly discovered species. Numeric data generated during the analysis can also be used to quantify the evolutionary distance between two species. Subsequent statistical analysis would allow inferences to be made about the strength of such relationships
+
+    \subsection{Fneighbor}
+
+    See documentation for \href{http://bioinfo.nhri.org.tw/cgi-bin/emboss/help/fneighbor}{fNeighbor}.

@@ -1,0 +1,263 @@
+\documentclass[11 pt,letterpaper]{article}
+\usepackage{graphicx,float}
+\usepackage[section]{placeins}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,urlcolor=black,citecolor=black]{hyperref}
+\usepackage[toc,page]{appendix}
+\usepackage{listings}[language=R]
+\usepackage[backend=biber,autocite=superscript]{biblatex}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage[toc,page]{appendix}
+
+\bibliography{BIF705Lab4.bib}
+
+\lstset{
+    language=R,
+    numbers=left,
+    numberstyle=\scriptsize,
+    basicstyle=\ttfamily\scriptsize,
+    showstringspaces=false,
+    breaklines=true
+}
+
+\title{\LARGE \bf
+    BIF705 Lab 4: Genetic Association Studies in R
+    }
+\author{Christopher Eeles}
+\date{\small \today}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+    The Hardy-Weinberg Equilibrium (HWE) equation represents the distribution of alleles for a population wherein those alleles are randomly propagated across generations.\autocite{1}
+    In the context of genetic association studies, the HWE state of a population is used as a measure of control data quality.\autocite{1}
+    To conduct a valid association analysis, the control population must be in HWE as it is the standard by which the genetic association hypothesis is tested; it represents the null hypothesis of no association.\autocite{1}
+    Therefore before proceeding to analysis of genetic association, the distribution of the control data must be tested to ensure the model assumptions hold.\autocite{1}
+    In this investigation the Pearson goodness-of-fit test ($\chi^2$) will be applied to control data with an $\alpha$ of 0.05.
+    Should HWE be accepted, subsequent analysis will compare the control population to the diseased population at four single nucleotide polymorphisms (SNPs) to test if these mutations are correlated with the diseased phenotype.\autocite{2} 
+
+    Such case-control studies are used to gain a preliminary understanding of which genetic factors may indicate a higher risk of disease in an individual or group of individuals.\autocite{1}
+    Testing of both HWE and genetic association will be conducted using the \texttt{R} programming language with the \texttt{genetics} package. 
+    This package extends the functionality of \texttt{R} by bundling genotype data into the built-in $\chi^2$ test function.\autocite{3}
+    Hypothesis testing for the genetic association of each SNP to the diseased state will also utilize the $\chi^2$ test to determine the p-value of each SNP at an $\alpha$ of 0.05.
+    Results will then be analyzed and conclusions drawn about the predictive relationship of each SNP to the disease phenotype.
+
+\section{Results}
+
+    \subsection{Data Summary}
+    \FloatBarrier
+    \begin{table}[]
+        \caption{\textbf{Summary of popn.txt Table Columns}}
+        \centering
+        \resizebox{4.9in}{!}{%
+        \begin{tabular}{@{}llll@{}}
+            \toprule
+             & \textbf{Gender} & \textbf{Affected} & \textbf{SNP A} \\ \midrule
+            \textbf{Command} & \textgreater summary(popn\$gender) & \textgreater summary(popn\$affected) & \textgreater{}summary(popn\$A) \\
+            \textbf{Results} & \begin{tabular}[c]{@{}l@{}}Female   Male   NA's\\    1037      383     116\end{tabular} & \begin{tabular}[c]{@{}l@{}}Case Control\\   672       864\end{tabular} & \begin{tabular}[c]{@{}l@{}}1/1  1/2  2/2 NA's \\ 541 704 244     47\end{tabular} \\ \bottomrule
+            \end{tabular}%
+            }
+        \resizebox{4.9in}{!}{%
+        \begin{tabular}{@{}llll@{}}
+            \toprule
+             & \textbf{SNP B} & \textbf{SNP C} & \textbf{SNP D} \\ \midrule
+            \textbf{Command} & \textgreater{}summary(popn\$B) & \textgreater{}summary(popn\$C) & \textgreater{}summary(popn\$D) \\
+            \textbf{Result} & \begin{tabular}[c]{@{}l@{}}1/1  1/2  2/2 NA's \\  531  734  234   37\end{tabular} & \begin{tabular}[c]{@{}l@{}}1/1  1/2  2/2 NA's \\  507  696  278   55\end{tabular} & \begin{tabular}[c]{@{}l@{}}1/1  2/1  2/2 NA's \\  296  691  454   95\end{tabular} \\ \bottomrule
+            \end{tabular}%
+        }
+        \end{table}
+        \FloatBarrier
+    \subsection{Hardy-Weinberg Equilibrium}
+        \subsubsection{SNP A}
+    \begin{lstlisting}
+>HWE.chisq(genotype(A)[affected == "Control"], simulate.p.value=F)
+Pearson's Chi-squared test with Yates' continuity correction
+data:  tab
+X-squared = 0.0045979, df = 1, p-value = 0.9459
+    \end{lstlisting}
+        \subsubsection{SNP B}
+        \begin{lstlisting}
+>HWE.chisq(genotype(B)[affected == "Control"], simulate.p.value=F)
+Pearson's Chi-squared test with Yates' continuity correction
+data:  tab
+X-squared = 0.36885, df = 1, p-value = 0.5436
+    \end{lstlisting}
+        \subsubsection{SNP C}
+        \begin{lstlisting}
+>HWE.chisq(genotype(C)[affected == "Control"], simulate.p.value=F)
+Pearson's Chi-squared test with Yates' continuity correction
+data:  tab
+X-squared = 0.94078, df = 1, p-value = 0.3321
+    \end{lstlisting}
+        \subsubsection{SNP D}
+        \begin{lstlisting}
+>HWE.chisq(genotype(D)[affected == "Control"], simulate.p.value=F)
+Pearson's Chi-squared test with Yates' continuity correction
+data:  tab
+X-squared = 2.2247, df = 1, p-value = 0.1358
+    \end{lstlisting}
+
+    \subsection{Genetic Associations}
+        \subsubsection{SNP A}
+
+        \begin{lstlisting}
+> t1<-table(A,affected) # Show table for A
+> t1
+A     Case Control
+  1/1  280     261
+  1/2  298     406
+  2/2   83     161
+chisq.test(t1,correct=FALSE) #one sided therefore p-val/2
+data:  t1
+X-squared = 23.738, df = 2, p-value = 7.003e-06
+        \end{lstlisting}
+
+        \subsubsection{SNP B}
+        \begin{lstlisting}
+> t2<-table(B,affected) # Show table for B
+> t2
+B     Case Control
+  1/1  202     329
+  1/2  332     402
+  2/2  123     111
+chisq.test(t2,correct=FALSE) #one sided therefore p-val/2
+data:  t2
+X-squared = 15.063, df = 2, p-value = 0.0005358
+        \end{lstlisting}
+
+        \subsubsection{SNP C}
+
+        \begin{lstlisting}
+> t3<-table(C,affected) # Show table for C
+> t3
+C     Case Control
+  1/1  267     240
+  1/2  301     395
+  2/2   90     188
+chisq.test(t3,correct=FALSE) #one sided therefore p-val/2
+data:  t3
+X-squared = 30.678, df = 2, p-value = 2.18e-07
+        \end{lstlisting}
+
+        \subsubsection{SNP D}
+
+        \begin{lstlisting}
+> t4<-table(D,affected) # Show table for D
+> t4
+D     Case Control
+  1/1   96     200
+  1/2  321     370
+  2/2  240     214
+chisq.test(t4,correct=FALSE) #one sided therefore p-val/2
+data:  t4
+X-squared = 30.549, df = 2, p-value = 2.325e-07
+        \end{lstlisting}
+
+\section{Discussion and Conclusion}
+
+    \subsection{Data}
+    
+    As seen in Table 1, the \texttt{popn.txt} file contains a set of allele markers for each of the four SNPs being analyzed.
+    Columns indicate gender, affected, A, B, C, D and subject.
+    The gender column contains 1037 Females, 383 Males and 116 NA's.
+    The affected column designates cases vs controls for the study, with 672 cases and 864 controls respectively.
+    The following four lettered columns---A, B, C, D---specify genotypic frequency for each of the four SNPs being studied; values can be either 1/1, 1/2 or 2/2.
+    The final column, subject, is a unique identifier for each individual in the study.
+    This is included to maintain anonymity of the study participants in accordance with privacy laws and medical ethics, while still allowing identification of participants by authorized professionals.
+
+    \subsection{Hardy-Weinberg Equilibrium}
+
+    Given the two-sided default for $\chi^2$ tests in R, calculated p-values must be divided by two to yield the appropriate one-sided value.
+    Therefore the resulting p-values for the A, B, C and D control subjects from section 2.2 were 0.47295, 0.2718, 0.16605 and 0.0679, respectively.
+    Since the selected p-value for this investigation was $\alpha$ = 0.5, the null-hypothesis of HWE is not rejected for any of the SNPs---although, SNP D was near the cut-off.
+    Based on this finding it is reasonable to conclude each control population is in HWE, thus the assumptions needed for subsequent genetic association analysis hold.
+
+    \subsection{Genetic Associations}
+
+    The R code and output presented in section 2.3 must also be converted from a two-sided to a one-sided test.
+    After halving, the p-values are 3.502e-06 for A, 2.679e-04 for B, 1.09e-06for C and 1.162e-07 for D.
+    Based on the selected $\alpha$ of 0.5, the null hypothesis of no association fo all four of the SNPs is rejected.
+    Since the alternative hypothesis for this $\chi^2$ test is that there is an association between the SNP genotypes and the disease phenotype, it can be concluded that these four SNPs are predictively correlated with the disease from this case-control study.
+    While this suggests a potential role for these SNPs in the development of what ever disease was being studied in this data, further investigation is needed to delineate correlation from causation.
+    
+
+\printbibliography
+
+\begin{appendix}
+
+\section{R Script}
+
+\begin{lstlisting}
+
+    library(genetics)
+
+#### Load data
+
+popn <- read.table(file.choose(),header=T) # Reads tab delimited files
+
+# File.choose dynamically loads the address, allows user to choose file.
+
+summary(popn) # The summary table is meaningless because subject is not a continuous variable.
+
+# These analyses will ignore the missing values, so the sums may not work out
+
+attach(popn) # Converts each column into an object of column name with a vector of the values in that column
+
+#### Test HWE in Control Samples
+
+# Only want control values, so need to pass more than one argument.
+# By default simulates a p-value from a chisq distribution, we want to specify degrees of freedom therefore add simulate.p.value=F
+# Note that column names are case sensitive
+
+HWE.chisq(genotype(A)[affected == "Control"], simulate.p.value=F) # This is different from normal chisq function because it also 
+                                                                  # grabs information about genotypes and incorporates them into a chisq test
+
+HWE.chisq(genotype(B)[affected == "Control"], simulate.p.value=F)
+
+HWE.chisq(genotype(C)[affected == "Control"], simulate.p.value=F)
+
+HWE.chisq(genotype(D)[affected == "Control"], simulate.p.value=F)
+
+
+# Result indicates that HWE is not rejected
+# For assignment check HWE for B, C and D as well
+
+#### Genetic Association
+
+t1<-table(A,affected) # Show table for A
+t1
+
+chisq.test(t1,correct=FALSE) # p-value outputs the two-sided p-val, therefore need to divide by 2
+
+# Output indicates there is an association between the SNP and the disease
+# Reject null hypothesis of no association
+
+# Complete this analysis for B, C and D
+# Learn how to use R markdown for this assignment
+# This is precursor to genome association studies
+
+t2<-table(B,affected)
+t2
+
+chisq.test(t2,correct=FALSE)
+
+t3<-table(C,affected)
+t3
+
+chisq.test(t3,correct=FALSE)
+
+t4<-table(D,affected)
+t4
+
+chisq.test(t4,correct=FALSE)
+
+\end{lstlisting}
+
+\end{appendix}
+
+\end{document}

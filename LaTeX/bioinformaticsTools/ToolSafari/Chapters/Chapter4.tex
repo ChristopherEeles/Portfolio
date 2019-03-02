@@ -1,0 +1,52 @@
+
+\chapter{Multiple Sequence Alignment} 
+
+\label{Chapter4} 
+
+\section{Concepts Discussed}
+
+    \subsection{Position Specific Scoring Matrices (PSSMs)}
+
+    See lecture notes.\autocite{T4}
+
+    \subsection{Position Specific Iterated (PSI) BLAST}
+
+    See lecture notes.\autocite{T4}
+    
+    \subsection{Cluster Alignment (CLUSTAL) Algorithms}
+
+    See lecture notes.\autocite{T4}
+
+\section{Tools Discussed}
+
+    \subsection{BlastN}
+
+    The help file for BLAST can be found \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web\&PAGE_TYPE=BlastDocs\&DOC_TYPE=BlastHelp}{BLAST Help}.
+
+    \subsection{ClustalW}
+
+    Information about ClustalW can be found at \href{https://www.ebi.ac.uk/Tools/msa/clustalw2/help/index.html}{ClustalW2}.
+
+    \subsection{ClustalOmega}
+
+    ClustalOmega is a web-based heuristic multiple sequence alignment tool used to evaluate similarity between biological sequence data.\autocite{B7} The ClustalOmega system is scalable and widely viewed as one of the fastest online multiple sequence alignment tools; speed and accuracy for a small number of sequences are similar to other high quality sequence aligners.\autocite{B7} However, the tool provides significance performance gains in comparison of large data sets with hundreds of thousands of sequences.\autocite{B7} 
+    The ClustalOmega algorithm struck a balance between previous fast but error prone multiple sequence aligners and the next generation of highly accurate but computationally ones.\autocite{B7} The program is able to provide reasonable accuracy without an excessive use of computational resources. Creation of a guide tree before alignment by vectorizing the distance between each aligned pair enables these performance gains.\autocite{B7} Additional information from external sources can be added to an alignment to provide additional gains in accuracy during alignments.\autocite{B7}
+
+\section{Tool Usage}
+
+    \subsection{ClustalOmega}
+    The Clustal Omega multiple sequence alignment web-app allows for alignment of three or more sequences to produce biologically meaningful alignments for divergent sequences.\autocite{B6} After alignment, detected evolutionary relationships can be visualized in phylogenic trees of various types.\autocite{B6} Operation of ClustalOmega follows these steps:
+    \begin{enumerate}
+        \item The entry page allows input of multiple sequences in a variety of formats via upload or copy and paste to a text box; sequence can be RNA, DNA or protein.\autocite{B6}
+        \item A number parameter settings are available via a drop down menu. Changing these values allows choice of alignment formatting.\autocite{B6}
+        \item Advanced parameter options are revealed by the more options button. These allows choice of whether or not to include a guide tree, how many iterations of clustering should occur as well as number of guide tree iterations.\autocite{B6}
+        \item The submission button is at the bottom of the page, with the option to be notified by email for longer compute times.\autocite{B6}
+        \item The results page shows the outputs in the selected format with an \texttt{*} under perfectly aligned positions.\autocite{B6}
+        \item Additional results options include visualization and generation of phylgenetic trees, all of which can be selected from the tabs at the top of the results page.\autocite{B6}
+    \end{enumerate}
+    
+\section{Tool Application}
+
+    \subsection{ClustalOmega}
+        \subsubsection{Identifying Gene Transfer Between Organisms}
+        Clustal Omega provides a significant number of options for visualizing results. However, the multiple sequence alignment in itself can be useful for comparing genes or loci between or within species. By selecting as input the sequences suspected to be homologous and running the tool, the alignment data can be used to identify regions of similarity.\autocite{L4} Such information can be used to hypothesize about whether sequences are likely to have similarly due to convergent evolution, or if some form of gene transfer---\emph{i.e.,} plasmid exchanges, conjugation in bacteria; translocations in complex organisms---is a better explanation for the observed alignment.\autocite{L4} ClustalOmega is a versatile tools for multiple sequence alignment, with additional functionality for fields such as phylogeny. Therefore this tool should be considered whenever a bioinformatician wants to explore genetic relationships between or within species.

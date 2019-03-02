@@ -1,0 +1,98 @@
+
+\chapter{Gene Expression Analysis} 
+
+\label{Chapter9} 
+
+\section{Concepts Discussed}
+
+    \subsection{Detecting Gene Expression}
+    See lecture notes.\autocite{T9}
+
+    \subsection{Expression Analysis}
+        \subsubsection{DNA Microarrays}
+        See lecture notes.\autocite{T9}
+            
+        \subsubsection{Serial Analysis of Gene Expression \text{(SAGE)}}
+        See lecture notes.\autocite{T9}
+    
+        \subsubsection{Minimal Information About a Microarray Experiment \text{(MIAME)}}
+        See lecture notes.\autocite{T9}
+    
+        \subsubsection{Cluster Analysis}
+        See lecture notes.\autocite{T9}
+    
+        \subsubsection{2D Gel Electrophoresis}
+        See lecture notes.\autocite{T9}
+    
+        \subsubsection{Protein Microarrays}
+        See lecture notes.\autocite{T9}
+    
+        \subsubsection{Mass Spectrometry \text{(MS)}}
+        See lecture notes.\autocite{T9}
+    
+    \subsection{Expression Data Preparation}
+    See lecture notes.\autocite{T9}
+
+        \subsubsection{Background Correction}
+        See lecture notes.\autocite{T9}
+
+        \subsubsection{Normalization}
+        See lecture notes.\autocite{T9}
+
+        \subsubsection{Transformation}
+        See lecture notes.\autocite{T9}
+
+        \subsubsection{Differential Expression}
+        See lecture notes.\autocite{T9}
+
+\section{Tools Discussed}
+
+    \subsection{NCBI Gene Expression Omnibus \text{(GEO)}}
+
+    The NCBI’s GEO is an international resource which stores micro-array, next-generations sequencing and other forms of high-throughput genomics data. The repository is available \href{https://www.ncbi.nlm.nih.gov/geo/}{online} where it can be accessed publicly.\autocite{B20} All submissions to GEO must follow MIAME criteria as well as organize data into platform, sample and sequence records.\autocite{B20} GEO curators use records to assemble DataSets which are biologically and statistically comparable; these are used to derive profiles, which collate information across samples for an individual gene.\autocite{B20} Additionally, DataSets are the input for a range of analysis and visualization tools available within the GEO web-server.\autocite{B20}
+
+    \subsection{GEO2R}
+
+    GEO2R is an interactive web tool which uses submitter supplied and processed data tables for comparison of two or more sample.\autocite{B21} Unlike other GEO’s other DataSet analysis tools, GEO does not rely on curated GEO data, instead affecting the original data file directly.\autocite{B21} Using the R packages GEOquery and limma from the Bioconductor project the tool outputs the results of statistical tests from the R language to identify deferentially expressed genes.\autocite{B21} 
+
+\section{Tool Usage}
+
+    \subsection{NCBI GEO}
+
+    See documentation.\autocite{B20}
+
+    \subsection{GEO2R}
+
+    The operation of GEO2R requires the following steps:
+    \begin{enumerate}
+        \item \textbf{Enter Series accession numbers} \\
+        Input into GEO2R is accepted in the form of series accession numbers, representing the ordered list of all GI numbers for a specific sequence.\autocite{B21} These can be input individually into text boxes or uploaded as a Series record.\autocite{B21}
+        
+        \item \textbf{Define Sample groups} \\
+        Once sample are uploaded, the user must define the desired sample groupings for the exppression analysis.\autocite{B21} Each grouping will get its own colour and name.\autocite{B21}
+
+        \item \textbf{Assign Samples to each group} \\
+        Samples can be assigned to groups by highlighting the associated sample row and clicking the desired group name.\autocite{B21} If completed correctly, the selected samples will be coloured according the same as the selected group.\autocite{B21}
+
+        \item \textbf{Edit options and features} \\
+        These are set by GEO2R as a default, but modifications can be made by advanced users desiring more control over the analysis.\autocite{B21} Options include adjusted p-values, transforming data to meet the requirements of a statistical test, or selecting which annotations to display with the results.\autocite{B21}
+
+        \item \textbf{Perform the test} \\
+        Once samples have been sorted into groups, the analysis can be run by navigating back to the GEO2R tab and clicking the "Top 250" results button.\autocite{B21}
+
+        \item \textbf{Interpret the results} \\
+        After completion of the analysis a table is displayed containing the results.\autocite{B21} Each sample gets a row in the table, and clicking a sample expands the row to display a plot of the relative expression of corresponding samples between groups.\autocite{B21} By identifying patterns in the plots one can determine co-expression and possibly determine co-regulation of genes between the sample conditions.\autocite{B21} Results can also be downloaded for further testing with the R statistical platform.
+        
+    \end{enumerate}
+    
+\section{Tool Applications}
+
+    \subsection{NCBI GEO}
+
+    See documentation.\autocite{B20}
+
+    \subsection{GEO2R}
+
+        \subsubsection{Analysis of Co-regulation to Place Genes in Molecular Pathways}
+
+        GEO2R enables visual exploration of expression trends between samples. By varying sample conditions, it is possible to compare gene expression across loci between samples.\autocite{L9} Co-regulated genes---either positively or negatively---may indicate that these genes share a molecular pathways or regulation mechanism.\autocite{L9} By placing genes within the larger expression systems within cells, between tissues, or even between organisms we are able to uncover new details about known pathways, identify gene and protein functions, as well as potentially discover novel molecular pathways. As complex webs of interconnection are elucidated, it becomes more easy to place other genes and proteins within them, eventually converging on a complete understanding of genes, proteins and their regulation within a given biological system. This powerful information will undoubtedly enable innovate new biological technology and medicine.

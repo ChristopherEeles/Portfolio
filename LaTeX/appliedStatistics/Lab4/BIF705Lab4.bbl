@@ -1,0 +1,111 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seneca College: Toronto, ON}
+      \field{title}{BIF 705: Topic 4}
+      \field{year}{2019}
+    \endentry
+    \entry{2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seneca College: Toronto, ON}
+      \field{title}{BIF705 Lab 4: Genetic Association studies in R}
+      \field{year}{2019}
+    \endentry
+    \entry{3}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08cff43c0f0ae66b1781b11a10922b30}{%
+           family={Warnes},
+           familyi={W\bibinitperiod},
+           given={Gregory\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{08cff43c0f0ae66b1781b11a10922b30}
+      \strng{fullhash}{08cff43c0f0ae66b1781b11a10922b30}
+      \strng{bibnamehash}{08cff43c0f0ae66b1781b11a10922b30}
+      \strng{authorbibnamehash}{08cff43c0f0ae66b1781b11a10922b30}
+      \strng{authornamehash}{08cff43c0f0ae66b1781b11a10922b30}
+      \strng{authorfullhash}{08cff43c0f0ae66b1781b11a10922b30}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RDocumentation}
+      \field{title}{genetics v1.3.8.1}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.rdocumentation.org/packages/genetics/versions/1.3.8.1
+      \endverb
+      \verb{url}
+      \verb https://www.rdocumentation.org/packages/genetics/versions/1.3.8.1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

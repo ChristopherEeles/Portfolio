@@ -1,0 +1,64 @@
+library(BiocManager)
+library(affy)
+library(affydata)
+library(multtest)
+library(spls)
+library(gplots)
+library(dendextend)
+# stats is a base package in R, don't need to load it.
+
+#### Data Processing
+
+# Import data set
+data(lymphoma)
+
+# Converting list to matrix and storing class vector
+
+lymphomaDF <- as.data.frame(lymphoma)
+
+lymphomaMatrix <- as.matrix(lymphomaDF)
+
+lymphoma.cl <- lymphoma[["y"]] # Classes are DLBCL, FL and CLL lymphocyte malignancies
+
+lymphomaCL <- lymphoma.cl + 1 # Added one because zero doesn't represent a colour
+
+lymphomaColor <- c(rep("black",42),rep("red",9),rep("green",11))
+
+#### Heat Map
+
+# Generate heatmap of data using red/green colour mapping
+heatmap(lymphomaMatrix,Colv=NA,Rowv=NA,col=redgreen(75),labCol="",RowSideColors=lymphomaColor)
+
+#### Euclidean Linkage
+
+# Complete linkage with Euclidean
+
+hc1<-hclust(dist(lymphomaMatrix))
+dend1<-as.dendrogram(hc1)
+dend1<-color_labels(dend1,col=lymphomaCL)
+eucComplete<-list(plot(dend1))
+
+# Single linkage with Euclidean
+
+hc2<-hclust(dist(lymphomaMatrix),method='single')
+dend2<-as.dendrogram(hc2)
+dend2<-color_labels(dend2,col=lymphomaCL)
+eucSingle<-list(plot(dend2))
+
+# Average linkage with Euclidean
+
+hc3<-hclust(dist(lymphomaMatrix),method='average')
+dend3<-as.dendrogram(hc3)
+dend3<-color_labels(dend3,col=lymphomaCL)
+eucAverage<-list(plot(dend3))
+
+#### K-means Clustering
+
+k1<-kmeans(lymphomaMatrix,centers=3)
+        table(lymphoma.cl,k1$cluster)
+
+k2<-kmeans(lymphomaMatrix,centers=3,nstart=10)
+table(lymphoma.cl,k2$cluster)
+
+k3<-kmeans(lymphomaMatrix,centers=3,nstart=100)
+table(lymphoma.cl,k3$cluster)

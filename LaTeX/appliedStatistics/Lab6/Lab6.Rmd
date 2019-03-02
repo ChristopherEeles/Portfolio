@@ -1,0 +1,269 @@
+---
+title: "Lab 6: Markov Chains"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Write introduction here
+
+## Results
+
+Write results here. Display code:
+
+```{r eval=T, echo=F}
+library(seqinr)
+
+######## Calculate 1st order Markov Model ########
+
+# Probability distribution:
+# p(A|A) = 0.6, P(C|A)= 0.1, P(G|A) = 0.1, p(T|A) = 0.2
+# p(A|C) = 0.1, P(C|C)= 0.5, P(G|C) = 0.3, p(T|C) = 0.1 
+# p(A|G) = 0.0.05, P(C|G)= 0.2, P(G|G) = 0.7, p(T|G) = 0.05
+# p(A|T) = 0.4, P(C|T)= 0.05, P(G|T) = 0.0.05, p(T|T) = 0.5
+
+alph<-c('A','C','G','T') # Char vector of alphabet of possible states
+
+firstOrderMat<-matrix(NA,nr=4,nc=4) # Initialize empty matrix with nr rows and nc columns
+
+colnames(firstOrderMat)<-rownames(firstOrderMat)<-alph # Naming rows and columns after the states
+
+# Find faster way to do this!
+
+firstOrderMat[1,]<-c(0.6,0.1,0.1,0.2) 
+firstOrderMat[2,]<-c(0.1,0.5,0.3,0.1)
+firstOrderMat[3,]<-c(0.05,0.2,0.7,0.05)
+firstOrderMat[4,]<-c(0.4,0.05,0.05,0.2)
+
+inProb <-c(0.4,0.1,0.1,0.4); names(inProb)<-alph # Initial probabilities; naming initial probabilities
+
+# Can't just sample() command this time because there are two pieces of information needed to calculate the probability
+
+generateFirstOrderSeq<-function(lengthSeq,alphabet,initialProb,firstOrderMatrix) {
+    outputSeq<-rep(NA,length=lengthSeq) # Set to be dynamic because this is not yet known, initialize empty vector with seqLength elements
+    outputSeq[1]<-sample(alphabet,1,prob=initialProb) # Similar to command for the 0th order Markov Model
+    
+    for( i in 2:length(outputSeq)){ # Want to know what previous nucleotide was because next value depends on it
+        prevNuc<-outputSeq[i-1] # Store previous value
+        currentProb<-firstOrderMatrix[prevNuc,] # Get probabilities from last nucleotide
+        outputSeq[i]<-sample(alphabet,1,prob=currentProb) # Assigns results to the matrix for each i
+    }
+    return(outputSeq) # What the function passes back when run
+}
+
+#### First Order Markov Model: 10 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq<-generateFirstOrderSeq(10,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate 
+
+firstOrderFreq<-count(firstOrderSeq,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin<-count(firstOrderSeq,2,alphabet=alph,freq=TRUE)
+
+#### First Order Markov Model: 100 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq2<-generateFirstOrderSeq(100,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate frequencies
+
+firstOrderFreq2<-count(firstOrderSeq2,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin2<-count(firstOrderSeq2,2,alphabet=alph,freq=TRUE)
+
+
+#### First Order Markov Model: 1000 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq3<-generateFirstOrderSeq(1000,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate frequencies
+
+firstOrderFreq3<-count(firstOrderSeq3,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin3<-count(firstOrderSeq3,2,alphabet=alph,freq=TRUE)
+
+
+
+######## Look at all plots at once #########
+
+par(mfrow=c(2,3)) # Now we have 2 x 3 table, so six plots.
+
+
+## Draw first order nucleotide plots with 10, 100, 1000 samples
+
+
+# FirstOrder: Nucleotide plot
+barplot(firstOrderFreq,col=1:4, main="Nucleotide: 10 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+# Nucleotide plot
+barplot(firstOrderFreq2,col=1:4, main="Nucleotide: 100 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+# Nucleotide plot
+barplot(firstOrderFreq3,col=1:4, main="Nucleotide: 1000 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+
+## Draw first order dinucleotide plots with 10, 100, 1000 samples
+
+
+# FirstOrder: Dinucleotide, won't get a good distribution because there are only 10 items in the sequence
+barplot(firstOrderFreqDin,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinucletoide: 10 Samples",
+        xlab="Base",ylab="Base proportion")
+
+# Dinucleotide, 100 samples
+barplot(firstOrderFreqDin2,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinucleotide: 100 Samples",
+        xlab="Base",ylab="Base proportion") 
+
+# Dinucleotide, 1000 samples
+barplot(firstOrderFreqDin3,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinculeotide: 1000 Samples",
+        xlab="Base",ylab="Base proportion") 
+```
+
+Probably write results here!
+
+## Discussion and Conclusion
+
+Write Discussion and Conclusion here. Code examples as needed:
+
+
+## References
+
+[1] School of Biological Sciences and Applied Chemistry. (2019).Topic 6: Markov Chains. Seneca College: Toronto, ON.
+
+[2] School of Biological Sciences and Applied Chemistry. (2019). Lab 6: Markov Chains. Seneca College: Toronto, ON.
+
+## R Script
+
+```{r eval=F, echo=T}
+library(seqinr)
+
+######## Calculate 1st order Markov Model ########
+
+# Probability distribution:
+# p(A|A) = 0.6, P(C|A)= 0.1, P(G|A) = 0.1, p(T|A) = 0.2
+# p(A|C) = 0.1, P(C|C)= 0.5, P(G|C) = 0.3, p(T|C) = 0.1 
+# p(A|G) = 0.0.05, P(C|G)= 0.2, P(G|G) = 0.7, p(T|G) = 0.05
+# p(A|T) = 0.4, P(C|T)= 0.05, P(G|T) = 0.0.05, p(T|T) = 0.5
+
+alph<-c('A','C','G','T') # Char vector of alphabet of possible states
+
+firstOrderMat<-matrix(NA,nr=4,nc=4) # Initialize empty matrix with nr rows and nc columns
+
+colnames(firstOrderMat)<-rownames(firstOrderMat)<-alph # Naming rows and columns after the states
+
+# Find faster way to do this!
+
+firstOrderMat[1,]<-c(0.6,0.1,0.1,0.2) 
+firstOrderMat[2,]<-c(0.1,0.5,0.3,0.1)
+firstOrderMat[3,]<-c(0.05,0.2,0.7,0.05)
+firstOrderMat[4,]<-c(0.4,0.05,0.05,0.2)
+
+inProb <-c(0.4,0.1,0.1,0.4); names(inProb)<-alph # Initial probabilities; naming initial probabilities
+
+# Can't just sample() command this time because there are two pieces of information needed to calculate the probability
+
+generateFirstOrderSeq<-function(lengthSeq,alphabet,initialProb,firstOrderMatrix) {
+    outputSeq<-rep(NA,length=lengthSeq) # Set to be dynamic because this is not yet known, initialize empty vector with seqLength elements
+    outputSeq[1]<-sample(alphabet,1,prob=initialProb) # Similar to command for the 0th order Markov Model
+    
+    for( i in 2:length(outputSeq)){ # Want to know what previous nucleotide was because next value depends on it
+        prevNuc<-outputSeq[i-1] # Store previous value
+        currentProb<-firstOrderMatrix[prevNuc,] # Get probabilities from last nucleotide
+        outputSeq[i]<-sample(alphabet,1,prob=currentProb) # Assigns results to the matrix for each i
+    }
+    return(outputSeq) # What the function passes back when run
+}
+
+#### First Order Markov Model: 10 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq<-generateFirstOrderSeq(10,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate 
+
+firstOrderFreq<-count(firstOrderSeq,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin<-count(firstOrderSeq,2,alphabet=alph,freq=TRUE)
+
+#### First Order Markov Model: 100 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq2<-generateFirstOrderSeq(100,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate frequencies
+
+firstOrderFreq2<-count(firstOrderSeq2,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin2<-count(firstOrderSeq2,2,alphabet=alph,freq=TRUE)
+
+
+#### First Order Markov Model: 1000 Samples ####
+
+# Generate a new sequence using our function
+
+firstOrderSeq3<-generateFirstOrderSeq(1000,alph,inProb,firstOrderMat) # lengthSeq, alphabet, initialProb, firstOrderMartix
+
+# Calculate frequencies
+
+firstOrderFreq3<-count(firstOrderSeq3,1,alphabet=alph,freq=TRUE)
+
+firstOrderFreqDin3<-count(firstOrderSeq3,2,alphabet=alph,freq=TRUE)
+
+
+
+######## Look at all plots at once #########
+
+par(mfrow=c(2,3)) # Now we have 2 x 3 table, so six plots.
+
+
+## Draw first order nucleotide plots with 10, 100, 1000 samples
+
+
+# FirstOrder: Nucleotide plot
+barplot(firstOrderFreq,col=1:4, main="Nucleotide: 10 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+# Nucleotide plot
+barplot(firstOrderFreq2,col=1:4, main="Nucleotide: 100 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+# Nucleotide plot
+barplot(firstOrderFreq3,col=1:4, main="Nucleotide: 1000 Samples", # col specifies respective colors, main specifies title
+        xlab="Base",ylab="Base proportion") # label axes 
+
+
+## Draw first order dinucleotide plots with 10, 100, 1000 samples
+
+
+# FirstOrder: Dinucleotide, won't get a good distribution because there are only 10 items in the sequence
+barplot(firstOrderFreqDin,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinucletoide: 10 Samples",
+        xlab="Base",ylab="Base proportion")
+
+# Dinucleotide, 100 samples
+barplot(firstOrderFreqDin2,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinucleotide: 100 Samples",
+        xlab="Base",ylab="Base proportion") 
+
+# Dinucleotide, 1000 samples
+barplot(firstOrderFreqDin3,col=rainbow(16), #raindbow(n) pulls n colours from the rainbow palette
+        main="Dinculeotide: 1000 Samples",
+        xlab="Base",ylab="Base proportion") 
+```

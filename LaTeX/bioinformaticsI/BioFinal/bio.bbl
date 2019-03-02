@@ -1,0 +1,559 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{R7}{article}{}
+      \name{author}{4}{}{%
+        {{hash=64aa00fce73811088987c39b913b6f03}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Neelja},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6f429abbdf00e2829bc3db724739047b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Manish},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b6be908eba47f6fd3a2029f4c2a61d0}{%
+           family={Kanaujia},
+           familyi={K\bibinitperiod},
+           given={Pawan\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2e0818b234d716773d103a87be084619}{%
+           family={Virdi},
+           familyi={V\bibinitperiod},
+           given={Jugsharan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media {SA}}%
+      }
+      \strng{namehash}{10175d602874eda9a17518184a7bedeb}
+      \strng{fullhash}{8f257ddc0058bef3c0afb4e0bdcdeecc}
+      \strng{bibnamehash}{10175d602874eda9a17518184a7bedeb}
+      \strng{authorbibnamehash}{10175d602874eda9a17518184a7bedeb}
+      \strng{authornamehash}{10175d602874eda9a17518184a7bedeb}
+      \strng{authorfullhash}{8f257ddc0058bef3c0afb4e0bdcdeecc}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Microbiology}
+      \field{title}{{MALDI}-{TOF} mass spectrometry: an emerging technology for microbial identification and diagnosis}
+      \field{volume}{6}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.3389/fmicb.2015.00791
+      \endverb
+    \endentry
+    \entry{R9}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mass spectrometry}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Mass_spectrometry
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Mass_spectrometry
+      \endverb
+    \endentry
+    \entry{R8}{article}{}
+      \name{author}{1}{}{%
+        {{hash=830035bb4464ef84c1dabd600be590cb}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society ({ACS})}%
+      }
+      \strng{namehash}{830035bb4464ef84c1dabd600be590cb}
+      \strng{fullhash}{830035bb4464ef84c1dabd600be590cb}
+      \strng{bibnamehash}{830035bb4464ef84c1dabd600be590cb}
+      \strng{authorbibnamehash}{830035bb4464ef84c1dabd600be590cb}
+      \strng{authornamehash}{830035bb4464ef84c1dabd600be590cb}
+      \strng{authorfullhash}{830035bb4464ef84c1dabd600be590cb}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Analytical Chemistry}
+      \field{number}{15}
+      \field{title}{A Brief History of Mass Spectrometry}
+      \field{volume}{80}
+      \field{year}{2008}
+      \field{pages}{5678\bibrangedash 5683}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ac8013065
+      \endverb
+    \endentry
+    \entry{R1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1f01111e00d230f7a9419ac3949a2f62}{%
+           family={Ganova-Raeva},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={L\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f56aa6d07734017122a0e7d4aaf1da5f}{%
+           family={Khudyakov},
+           familyi={K\bibinitperiod},
+           given={Yury\bibnamedelima E},
+           giveni={Y\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \strng{fullhash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \strng{bibnamehash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \strng{authorbibnamehash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \strng{authornamehash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \strng{authorfullhash}{80c0f23cb7b332878f5d36aa8ac9eb4f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Review of Molecular Diagnostics}
+      \field{number}{4}
+      \field{title}{Application of mass spectrometry to molecular diagnostics of viral infections}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{377\bibrangedash 388}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1586/erm.13.24
+      \endverb
+    \endentry
+    \entry{R10}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b6be129e1fa5d62a3fbeadbb35c54d99}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Debasish},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e7935c727917fe87682df759e8ddb65}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2fcbf3c667222137b178c27c032654aa}{%
+           family={Gajbhiye},
+           familyi={G\bibinitperiod},
+           given={Akshada},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19fbee7a4ea3640c34bd631b49284bc6}{%
+           family={Santra},
+           familyi={S\bibinitperiod},
+           given={Manas\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=30ef4799b4f86ff22c52b9bc0b6ecf0f}{%
+           family={Srikanth},
+           familyi={S\bibinitperiod},
+           given={Rapole},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Limited}%
+      }
+      \strng{namehash}{e57225b88f4f94fc85ef24c0c3e9b778}
+      \strng{fullhash}{d5acecca3bab25294abf6e64839d39a9}
+      \strng{bibnamehash}{e57225b88f4f94fc85ef24c0c3e9b778}
+      \strng{authorbibnamehash}{e57225b88f4f94fc85ef24c0c3e9b778}
+      \strng{authornamehash}{e57225b88f4f94fc85ef24c0c3e9b778}
+      \strng{authorfullhash}{d5acecca3bab25294abf6e64839d39a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{BioMed} Research International}
+      \field{title}{Mass Spectrometry-Based Proteomics in Molecular Diagnostics: Discovery of Cancer Biomarkers Using Tissue Culture}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1155/2013/783131
+      \endverb
+    \endentry
+    \entry{R5}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=b98c06c04a87fb8ca390b8c96195c876}{%
+           family={Hraba},
+           familyi={H\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{b98c06c04a87fb8ca390b8c96195c876}
+      \strng{fullhash}{b98c06c04a87fb8ca390b8c96195c876}
+      \strng{bibnamehash}{b98c06c04a87fb8ca390b8c96195c876}
+      \strng{authorbibnamehash}{b98c06c04a87fb8ca390b8c96195c876}
+      \strng{authornamehash}{b98c06c04a87fb8ca390b8c96195c876}
+      \strng{authorfullhash}{b98c06c04a87fb8ca390b8c96195c876}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Methods in Molecular Biology}
+      \field{title}{Detection of Carbapenemases Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry ({MALDI}-{TOF} {MS}) Meropenem Hydrolysis Assay}
+      \field{year}{2014}
+      \field{pages}{91\bibrangedash 96}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/978-1-4939-1776-1_9
+      \endverb
+    \endentry
+    \entry{R2}{article}{}
+      \name{author}{11}{}{%
+        {{hash=79ba77f402f43b29c7f4b2b2f6069e3c}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=90316ef79fac5c54e969e2b12acefe4b}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9db27305a610eded64e116bf40053e72}{%
+           family={Randell},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f20282a86c5612d54c9b1ffb44d14535}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=704e9fcf78d071ff1c7c0d1dff9784c7}{%
+           family={McClure},
+           familyi={M\bibinitperiod},
+           given={Z.\bibnamedelimi E.},
+           giveni={Z\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2b4bbe0613923c1367de4ff1fc158f58}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={M.-S.},
+           giveni={M\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=9876f59ca4dadf558d9a6bcb98c4a469}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86faddec2c43bc0fc4d84bd97bcb4733}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=9e68d0380c447ec7f0167b725e543eae}{%
+           family={Cookson},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi O.\bibnamedelimi C.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dc67f1e0f36bf9a7ca3d11421d8b198c}{%
+           family={Moffatt},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f8adcb322adb18fd6318bf2c508cbcb6}{%
+           family={Kroll},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{de21902151c9f4ed09f41594fd4311db}
+      \strng{fullhash}{3cb3f3876419ff6fff561cbb1c670f61}
+      \strng{bibnamehash}{de21902151c9f4ed09f41594fd4311db}
+      \strng{authorbibnamehash}{de21902151c9f4ed09f41594fd4311db}
+      \strng{authornamehash}{de21902151c9f4ed09f41594fd4311db}
+      \strng{authorfullhash}{3cb3f3876419ff6fff561cbb1c670f61}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Infectious Diseases}
+      \field{number}{3}
+      \field{title}{Dysbiosis Anticipating Necrotizing Enterocolitis in Very Premature Infants}
+      \field{volume}{60}
+      \field{year}{2014}
+      \field{pages}{389\bibrangedash 397}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/cid/ciu822
+      \endverb
+    \endentry
+    \entry{R3}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fc0e1f5968e91f0dc73d70497aa8bcd2}{%
+           family={Dhillon},
+           familyi={D\bibinitperiod},
+           given={A\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5802c951f50b1382cd3244b12e102727}{%
+           family={Hagan},
+           familyi={H\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a0cf801e1a029f7905a3cde0aa93d4a}{%
+           family={Rath},
+           familyi={R\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f6cfaa140b6dbf9e1317777bd807d99d}{%
+           family={Kolch},
+           familyi={K\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{7ec14bd5a32d8cb3bd835b3e753bb9e4}
+      \strng{fullhash}{0a46815050b9c2d0072196ce74061db8}
+      \strng{bibnamehash}{7ec14bd5a32d8cb3bd835b3e753bb9e4}
+      \strng{authorbibnamehash}{7ec14bd5a32d8cb3bd835b3e753bb9e4}
+      \strng{authornamehash}{7ec14bd5a32d8cb3bd835b3e753bb9e4}
+      \strng{authorfullhash}{0a46815050b9c2d0072196ce74061db8}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oncogene}
+      \field{number}{22}
+      \field{title}{{MAP} kinase signalling pathways in cancer}
+      \field{volume}{26}
+      \field{year}{2007}
+      \field{pages}{3279\bibrangedash 3290}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/sj.onc.1210421
+      \endverb
+    \endentry
+    \entry{R4}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bb306f76dbe37f22ceabb804e0f8b031}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ee556bd8ee2560021057848662e2eef9}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yazhou},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=549b41af5d5232fa082c9bbe9e33fd45}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4c17e33547362b73201203b6b1ccc037}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tianliang},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5fb92c2ba6e2255d7e5d4e5a9f3488eb}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jinxiang},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{3fa8ca5e2ed3f4a97273eaf210df4985}
+      \strng{fullhash}{dc9d1c3348cebc6fdf251948528cc11d}
+      \strng{bibnamehash}{3fa8ca5e2ed3f4a97273eaf210df4985}
+      \strng{authorbibnamehash}{3fa8ca5e2ed3f4a97273eaf210df4985}
+      \strng{authornamehash}{3fa8ca5e2ed3f4a97273eaf210df4985}
+      \strng{authorfullhash}{dc9d1c3348cebc6fdf251948528cc11d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tumor Biology}
+      \field{number}{2}
+      \field{title}{Identification of prohibitin 1 as a potential prognostic biomarker in human pancreatic carcinoma using modified aqueous two-phase partition system combined with 2D-{MALDI}-{TOF}-{TOF}-{MS}/{MS}}
+      \field{volume}{36}
+      \field{year}{2014}
+      \field{pages}{1221\bibrangedash 1231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s13277-014-2742-y
+      \endverb
+    \endentry
+    \entry{R12}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7a4d5403eade815300698d0174149088}{%
+           family={Croxatto},
+           familyi={C\bibinitperiod},
+           given={Antony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5414054d71308d3c881427449c1eb41e}{%
+           family={Prod{'}hom},
+           familyi={P\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0b40e28045e84f5ed082bb37cd4fc457}{%
+           family={Greub},
+           familyi={G\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press ({OUP})}%
+      }
+      \strng{namehash}{b63212df55bf435a21dcda881f9b0942}
+      \strng{fullhash}{b63212df55bf435a21dcda881f9b0942}
+      \strng{bibnamehash}{b63212df55bf435a21dcda881f9b0942}
+      \strng{authorbibnamehash}{b63212df55bf435a21dcda881f9b0942}
+      \strng{authornamehash}{b63212df55bf435a21dcda881f9b0942}
+      \strng{authorfullhash}{b63212df55bf435a21dcda881f9b0942}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{FEMS} Microbiology Reviews}
+      \field{number}{2}
+      \field{title}{Applications of {MALDI}-{TOF} mass spectrometry in clinical diagnostic microbiology}
+      \field{volume}{36}
+      \field{year}{2012}
+      \field{pages}{380\bibrangedash 407}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1111/j.1574-6976.2011.00298.x
+      \endverb
+    \endentry
+    \entry{R6}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8d1524ce234845ab120a35836bac5bf0}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={C.S.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=489a51d34094954eea1ab82df02b3baf}{%
+           family={C.W.},
+           familyi={C\bibinitperiod},
+           given={Lam},
+           giveni={L\bibinitperiod}}}%
+        {{hash=76fb09367f58632101e67723b9bf2700}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={M.H.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4eec1ceb110baa6e98006ac4328db023}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={R.C.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0d396dc79835e77014fab7ca036a11a4}{%
+           family={Law},
+           familyi={L\bibinitperiod},
+           given={L.K.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a621100f86973db7ec23cfb381d740be}{%
+           family={Lit},
+           familyi={L\bibinitperiod},
+           given={L.C.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c880b72aabdebe49a00cbef1990b2d5f}{%
+           family={Suen},
+           familyi={S\bibinitperiod},
+           given={M.W.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a177e9548699ddebf7a2a3f2edfabedc}{%
+           family={Tai},
+           familyi={T\bibinitperiod},
+           given={H.L.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{94dc8a5449b3f94bd03948b50edad67d}
+      \strng{fullhash}{7e90c66caa89929fdf2f7dea160ffa99}
+      \strng{bibnamehash}{94dc8a5449b3f94bd03948b50edad67d}
+      \strng{authorbibnamehash}{94dc8a5449b3f94bd03948b50edad67d}
+      \strng{authornamehash}{94dc8a5449b3f94bd03948b50edad67d}
+      \strng{authorfullhash}{7e90c66caa89929fdf2f7dea160ffa99}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Biochemistry Review}
+      \field{title}{Electrospray ionisation mass spectrometry: principles and clinical applications}
+      \field{year}{2003}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/18568044
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/18568044
+      \endverb
+    \endentry
+    \entry{R11}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d85bd76453fd8d7bf13edd7b6656a37}{%
+           family={Biological\bibnamedelima Sciences},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=549ec7b0655b5259ec5057dcaaa83280}{%
+           family={Chemistry},
+           familyi={C\bibinitperiod},
+           given={Applied},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{fullhash}{445598fa51face627a81f79d5a844f9b}
+      \strng{bibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorbibnamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authornamehash}{445598fa51face627a81f79d5a844f9b}
+      \strng{authorfullhash}{445598fa51face627a81f79d5a844f9b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seneca Celle}
+      \field{title}{Lecture 4: Isothermal Amplification}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

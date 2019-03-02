@@ -1,0 +1,375 @@
+% Encoding: UTF-8
+
+@Misc{T2,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 2: Dynamic Programming},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L2,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 2: Dynamic Programming},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T7,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 7: Protein Structure Prediction},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L4,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 4: Multiple Sequence Alignment},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T8,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 8: Secondary Structure Prediction},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T9,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 9: Gene Expression Analysis},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T10,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 10: Systems Biology},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T1,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 1: Sequence Alignment},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L5,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 5: Phylogenetics},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L1,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 1: Sequence Alignment},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T3,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 3: Database Searching},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L3,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 3: Database Searching},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T4,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 4: Multiple Sequence Alignment},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T5,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 5: Phylogenetics},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L6,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 6: Gene Prediction},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L7,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 7: Protein Structure Prediction},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L8,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 8: Secondary Structure Prediction},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L9,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 9: Gene Expression Analysis},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{L10,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Lab 10: Systems Biology},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Misc{T6,
+  author = {School of Biological Sciences and Applied Chemistry},
+  title  = {Topic 6: Phylogenetics},
+  year   = {2018},
+  editor = {Monica Wong},
+}
+
+@Article{B1,
+  author  = {Alexander Persemlidis and John Fondon},
+  title   = {Having a BLAST with bioinformatics (and avoiding BLASTphemy)},
+  journal = {Genome Biology},
+  year    = {2001},
+  doi     = {https://doi.org/10.1186/gb-2001-2-10-reviews2002},
+}
+
+@Article{B2,
+  author  = {National Institute of Biotechnology Information},
+  title   = {BLAST Program Selection Guide},
+  journal = {National Library of Medicine},
+  year    = {2009},
+  url     = {https://blast.ncbi.nlm.nih.gov/BLAST_guide.pdf},
+}
+
+@Article{B3,
+  author    = {Gurmukh Singh and Khalid Siddiqui},
+  title     = {Microsoft Excel Software Usage for Teaching Science and Engineering Curriculum},
+  journal   = {Journal of Educational Technology Systems},
+  year      = {2009},
+  volume    = {37},
+  number    = {4},
+  doi       = {10.2190/et.37.4.e},
+  publisher = {SAGE Publications},
+}
+
+@Article{B4,
+  author  = {GCF Global},
+  title   = {Excel 2010 Creating Complex Formulas},
+  journal = {GCF LearnFree.org},
+  year    = {2018},
+}
+
+@Article{B5,
+  author    = {Hamosh, A. , et al.},
+  title     = {Online Mendelian Inheritance in Man (OMIM), a knowledgebase of human genes and genetic disorders},
+  journal   = {Nucleic Acids Research},
+  year      = {2004},
+  volume    = {33},
+  number    = {Database issue},
+  doi       = {10.1093/nar/gki033},
+  publisher = {Oxford University Press},
+}
+
+@Article{B6,
+  author  = {Duggan, K.},
+  title   = {Culstal Omega},
+  journal = {EMBL-EBI},
+  year    = {2018},
+  url     = {https://www.ebi.ac.uk/seqdb/confluence/display/THD/Clustal+Omega},
+}
+
+@Article{B7,
+  author    = {F. Sievers and A. Wilm and D. Dineen and T. J. Gibson and K. Karplus and W. Li and R. Lopez and H. McWilliam and M. Remmert and J. Soding and J. D. Thompson and D. G. Higgins},
+  title     = {Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega},
+  journal   = {Molecular Systems Biology},
+  year      = {2014},
+  volume    = {7},
+  number    = {1},
+  doi       = {10.1038/msb.2011.75},
+  publisher = {Wiley},
+}
+
+@Article{B8,
+  author    = {A. Dereeper and V. Guignon and G. Blanc and S. Audic and S. Buffet and F. Chevenet and J.-F. Dufayard and S. Guindon and V. Lefort and M. Lescot and J.-M. Claverie and O. Gascuel},
+  title     = {Phylogeny.fr: robust phylogenetic analysis for the non-specialist},
+  journal   = {Nucleic Acids Research},
+  year      = {2008},
+  volume    = {36},
+  number    = {Web Server},
+  doi       = {10.1093/nar/gkn180},
+  publisher = {Oxford University Press},
+}
+
+@Article{B9,
+  author  = {Felsensetin, J.},
+  title   = {fNeighbor},
+  journal = {National Health Research Institute},
+  year    = {2004},
+}
+
+@Article{B10,
+  author          = {Rombel, Irene T and Sykes, Kathryn F and Rayner, Simon and Johnston, Stephen Albert},
+  title           = {ORF-FINDER: a vector for high-throughput gene identification.},
+  journal         = {Gene},
+  year            = {2002},
+  volume          = {282},
+  pages           = {33-41},
+  issn            = {0378-1119},
+  abstract        = {We have developed a simple and efficient system (ORF-FINDER) for selecting open reading frames (ORFs) from randomly fragmented genomic DNA fragments. The ORF-FINDER vectors are plasmids that contain a translational start site out of frame with respect to the gene for green fluorescent protein (GFP). Insertion of DNA fragments that bring the initiating ATG in frame with GFP and that contain no stop codons (that is, ORFs) results in the expression of ORF-GFP fusion proteins. In addition, we have developed software (GeneWorks and GenomeAnalyzer) to predict the optimal insert size for maximizing the number of gene-coding ORFs and minimizing unintentionally selected non-coding ORFs. To demonstrate the feasibility of using the ORF-FINDER system to screen genomes for ORFs, we cloned yeast genomic DNA and succeeded in enriching for ORFs by 25-fold. Furthermore, we have shown that the vector can effectively isolate ORFs from the more complex genomes of eukaryotic parasites. We envision that ORF-FINDER will have several applications including genome sequencing projects, gene building from oligonucleotides and construction of expression libraries enriched for ORFs.},
+  chemicals       = {DNA, Fungal, DNA, Protozoan, Luminescent Proteins, Recombinant Fusion Proteins, Green Fluorescent Proteins},
+  citation-subset = {IM},
+  completed       = {2002-03-28},
+  country         = {Netherlands},
+  issn-linking    = {0378-1119},
+  issue           = {1-2},
+  keywords        = {Animals; Base Sequence; DNA, Fungal, genetics; DNA, Protozoan, genetics; Gene Expression; Genetic Vectors, genetics; Green Fluorescent Proteins; Luminescent Proteins, genetics, metabolism; Molecular Sequence Data; Neospora, genetics; Open Reading Frames, genetics; Recombinant Fusion Proteins, genetics, metabolism; Saccharomyces cerevisiae, genetics; Software; Trypanosoma cruzi, genetics},
+  nlm-id          = {7706761},
+  owner           = {NLM},
+  pii             = {S0378111901008198},
+  pmid            = {11814675},
+  pubmodel        = {Print},
+  pubstatus       = {ppublish},
+  revised         = {2006-11-15},
+}
+
+@Article{B12,
+  author    = {T. Vincze},
+  title     = {NEBcutter: a program to cleave DNA with restriction enzymes},
+  journal   = {Nucleic Acids Research},
+  year      = {2003},
+  volume    = {31},
+  number    = {13},
+  pages     = {3688-3691},
+  doi       = {10.1093/nar/gkg526},
+  publisher = {Oxford University Press},
+}
+
+@Article{B13,
+  author    = {H. M. Berman},
+  title     = {The Protein Data Bank},
+  journal   = {Nucleic Acids Research},
+  year      = {2000},
+  volume    = {28},
+  number    = {1},
+  pages     = {235--242},
+  doi       = {10.1093/nar/28.1.235},
+  publisher = {Oxford University Press},
+}
+
+@Article{B14,
+  author  = {Eric Martz},
+  title   = {What is FirstGlance in Jmol},
+  journal = {Bioinformatics.org},
+  year    = {2016},
+  url     = {https://www.bioinformatics.org/firstglance/fgij/whatis.htm},
+}
+
+@Article{B15,
+  author    = {Andrew Waterhouse and Martino Bertoni and Stefan Bienert and Gabriel Studer and Gerardo Tauriello},
+  title     = {SWISS-MODEL: homology modelling of protein structures and complexes},
+  journal   = {Nucleic Acids Research},
+  year      = {2018},
+  volume    = {46},
+  number    = {W1},
+  pages     = {W296--W303},
+  doi       = {10.1093/nar/gky427},
+  publisher = {Oxford University Press},
+}
+
+@Article{B16,
+  author  = {Protein Data Bank in Europe},
+  title   = {PDBeFold Secondary Structure Matching},
+  journal = {PDBeFold},
+  year    = {2018},
+  url     = {http://www.ebi.ac.uk/pdbe/docs/Tutorials/workshop_tutorials/PDBefold.pdf},
+}
+
+@Article{B17,
+  author    = {David T Jones},
+  title     = {Protein secondary structure prediction based on position-specific scoring matrices 1 1Edited by G. Von Heijne},
+  journal   = {Journal of Molecular Biology},
+  year      = {1999},
+  volume    = {292},
+  number    = {2},
+  pages     = {195--202},
+  doi       = {10.1006/jmbi.1999.3091},
+  publisher = {Elsevier},
+}
+
+@Book{B18,
+  title     = {Entrez Sequences Quick Start},
+  publisher = {National Center for Biotechnology Information},
+  year      = {2016},
+  author    = {Peter Cooper and Melissa Landrum and Ilene Mizrachi and Jane Weisemann},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK44863/},
+}
+
+@Article{B19,
+  author          = {Zuker, Michael},
+  title           = {Mfold web server for nucleic acid folding and hybridization prediction.},
+  journal         = {Nucleic acids research},
+  year            = {2003},
+  volume          = {31},
+  pages           = {3406--3415},
+  issn            = {1362-4962},
+  abstract        = {The abbreviated name, 'mfold web server', describes a number of closely related software applications available on the World Wide Web (WWW) for the prediction of the secondary structure of single stranded nucleic acids. The objective of this web server is to provide easy access to RNA and DNA folding and hybridization software to the scientific community at large. By making use of universally available web GUIs (Graphical User Interfaces), the server circumvents the problem of portability of this software. Detailed output, in the form of structure plots with or without reliability information, single strand frequency plots and 'energy dot plots', are available for the folding of single sequences. A variety of 'bulk' servers give less information, but in a shorter time and for up to hundreds of sequences at once. The portal for the mfold web server is http://www.bioinfo.rpi.edu/applications/mfold. This URL will be referred to as 'MFOLDROOT'.},
+  chemicals       = {DNA, Single-Stranded, RNA, DNA},
+  citation-subset = {IM},
+  completed       = {2003-08-18},
+  country         = {England},
+  issn-linking    = {0305-1048},
+  issue           = {13},
+  keywords        = {Base Sequence; Computer Graphics; DNA, chemistry; DNA, Single-Stranded, chemistry; Databases, Nucleic Acid; Internet; Models, Molecular; Nucleic Acid Conformation; Nucleic Acid Denaturation; Nucleic Acid Hybridization; RNA, chemistry; Software; Thermodynamics; User-Computer Interface},
+  nlm-id          = {0411011},
+  owner           = {NLM},
+  pmc             = {PMC169194},
+  pmid            = {12824337},
+  pubmodel        = {Print},
+  pubstatus       = {ppublish},
+  revised         = {2018-11-13},
+}
+
+@Article{B20,
+  author  = {NCBI},
+  title   = {GEO Documentation},
+  journal = {Gene Expression Omnibus},
+  year    = {2016},
+  url     = {https://www.ncbi.nlm.nih.gov/geo/info/},
+}
+
+@Article{B21,
+  author  = {NCBI},
+  title   = {About GEO2R},
+  journal = {Gene Expression Omnibus},
+  year    = {2016},
+  url     = {https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html},
+}
+
+@Article{B22,
+  author    = {Guangyan Zhou and Jianguo Xia},
+  title     = {{OmicsNet}:~a web-based tool for creation and visual analysis of biological networks in 3D space},
+  journal   = {Nucleic Acids Research},
+  year      = {2018},
+  volume    = {46},
+  number    = {W1},
+  pages     = {514--522},
+  doi       = {10.1093/nar/gky510},
+  publisher = {Oxford University Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

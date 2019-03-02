@@ -1,0 +1,29 @@
+\chapter{Dynamic Programming} 
+
+\label{Chapter2} 
+
+\section{Concepts Discussed}
+
+        \subsection{Needleman-Wunsch Algorithm}
+        See lecture notes.\autocite{T2}
+        \subsection{Smith-Waterman Algorithm}
+        See lecture notes.\autocite{T2}
+
+\section{Tools Discussed}
+
+    \subsection{Microsoft Excel}
+
+    Microsoft Excel is a member of the Microsoft Office software suit used for generating, storing and manipulating tabular data.\autocite{B3} While the features of Excel are quite limiting in terms of data analysis and visualization, it can be useful as an introductory tool for data entry, management, manipulation, analysis and visualization. The user friendly GUI allows new users to quickly understand and utilize the softwares functionality, thus enabling non-technical users to become acquainted with tabular data before being exposed to more complex analysis software such as R.\autocite{B3} Despite these disadvantages Excel is still a common choice for data analysis in the scientific community, especially those in fields largely unrelated to computers or computation. 
+
+\section{Tool Usages}
+
+    \subsection{Microsoft Excel}
+    Excel can be used to input and store tabular data, perform basic and complex formulas as well as output various graphs and figures to visualize data.\autocite{B4} Input and output is relatively simple, using drop down menus with clearly labeled commands; usefully, .csv files can be both loaded and exported using the GUI.\autocite{B4} Basic formulas are included with the package for arithmetic and simple statistical calculations like the mean. More complex formulas can be built into cells using the Fx box just below the program ribbon. These formulas can be cell specific, as well as take in values from other cells to built a series calculations into a single Excel file.\autocite{B4} You can also define your own formulas using the GUI for commonly used calculations. Essentially the program offers some of the functionality of a programming language without the need to learn the more complex concepts and syntax required to use more powerful tools.
+
+\section{Tool Applications}
+
+    \subsection{Microsoft Excel}
+
+    \subsubsection{Calculating Substitution Matrices} 
+    
+    Substitution matrices involve a complex set of algorithmic instructions to output the score for each potential alignment.\autocite{T2} Excel can be used as a simple way to dynamically program the correct substitution matrix for a given alignment using relatively simple functions in the program. Applying formulas to the values in an alignment allows input of relatively few values while outputting the entire matrix; completing this task by hand is tedious and time consuming, so even crude dynamic programming implementation have value\autocite{L2}. Through the use of cell references, we can set absolute cell values for the initial values of the rows and columns.\autocite{L2} Subsequently mixed cell references can be used to call the absolute values in adjacent cells.\autocite{T2} Finally a network of relative cell references can be applied to the following cells in order to generate the matrix for a desired alignment.\autocite{T2} This technique can be adapted for various matrices such as Needleman-Wunsch, Smith-Waterman, PAM and BLOSSUM allowing automated calculation for a given alignment.

@@ -1,0 +1,95 @@
+
+\chapter{Sequence Alignment}
+
+\label{Chapter1}
+
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+\section{Concepts Discussed}
+
+For a detailed outline of BLAST concepts and operation please see \href{https://genomebiology.biomedcentral.com/track/pdf/10.1186/gb-2001-2-10-reviews2002}{Having a BLAST with bioinformatics}.
+
+    \subsection[PAM Matrices]{PAM Matrices}
+    
+    See lecture notes.\autocite{T1}
+    
+    \subsection[BLOSSUM]{BLOSSUM}
+
+    See lecture notes.\autocite{T1}
+
+
+
+\section{Tools Discussed}
+
+    \subsection{BLAST}
+
+    Basic Local Alignment Search Tool (BLAST) is a sequence analysis service provided by the National Centre for Biotechnology Information in the United States. A BLAST query is composed  of four parts:
+
+    \begin{enumerate}
+        \item{A query - what you want to find.}
+        \item{A database - where you are going to find it.}
+        \item{A program - how you are going to find it.}
+        \item{A purpose/goal - why you are going to find it.}
+    \end{enumerate}
+
+    A query is the set of information you wish to input into the alignment, it is usually in the form of an ID gathered from an online biological database.\autocite{B2} Many databases are available which fall into two broad categories: protein and nucleotide.\autocite{B2} Each category of databases contain specialized forms of information which should be considered when selecting which to use for a specific investigation.\autocite{B2}
+
+    Program selection is also necessary to ensure the correct algorithms and parameters are used in your analysis. While many programs exist they fall into two major categories: nucleotide BLAST and protein BLAST.\autocite{B1} Within each category there are several tools, including ones to translate nucleotide data into proteins and to reverse translate protein sequences into nucleotides.\autocite{B1} An overview of available programs is provided below.
+
+
+    \begin{center}
+        \ding{92} \hspace{10pt} \ding{92} \hspace{10pt} \ding{92}
+    \end{center}
+        \subsubsection{BLASTn}
+        This program compares a query sequence against a nucleotide sequence database.\autocite{B1} Within BLASTn there are two special programs allowing an interaction with the BLASTp program:
+
+                \begin{enumerate}
+                    
+                    \item \textbf{BLASTx} \\
+                    This tool compares a nucleotide query sequence translated in all reading frames against a protein sequence database.\autocite{B1}
+
+                    \item \textbf{tBLASTx} \\
+                    This tool compares a six frame translation of the nucleotide query sequence against the six-frame translations of nucleotide sequences in a database.\autocite{B1} 
+                \end{enumerate}
+
+        \subsubsection{BLASTp}
+        Similarly to BLASTn, this program compares an amino acid sequence query against a protein   sequence database.\autocite{B1} It also contains a specialized tool to interact with BLASTn:
+                    \begin{enumerate}
+                        \item \textbf{tBLASTn} \\
+                            This tool compares a protein sequence query against a nucleotide   database dynamically translated in all reading frames.\autocite{B1}
+                    \end{enumerate} \hfill 
+    \begin{center}
+        \ding{92} \hspace{10pt}  \ding{92} \hspace{10pt}  \ding{92}
+    \end{center}
+                    
+    With this knowledge about databases, queries and programs one should be able to select combinations which meet their specific research interests.\autocite{B2} BLAST is a powerful tool with access to vast quantities of sequence data and therefore should be one of the first tools considered for sequence alignment analyses.
+    
+\section{Tool Usage}
+
+BLAST can be found at \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web\&PAGE_TYPE=BlastHome}{NCBI BLAST}. The help file for BLAST can be found \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web\&PAGE_TYPE=BlastDocs\&DOC_TYPE=BlastHelp}{BLAST Help}.
+Please reference the help file for instructions, troubleshooting and additional information as needed.
+
+    \subsection{BLASTp}
+    \begin{enumerate}
+        \item Navigate to \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome}{BLASTp} from the BLAST main page.
+        \item In the query sequence section enter accession number(s), GI number(s), or FASTA sequence(s) into the text box. Alternatively you may upload files from your local disk.
+        \item Select query sequence parameters such as query subrange, job title, or multiple alignments as needed.
+        \item In the choose search set section, select the appropriate database and choose optional parameters such as organism of interest, exclusions and entrez queries as needed.
+        \item In the program selection box choose the desired program. Specialized BLASTp algorithms are available which use of alternative scoring methods. These include PSI-BLAST, PHI-BLAST, etc.
+        \item Expanding the algorithm parameters options below the BLAST icon allows parameters to be select for the chosen algorithm; these include general, scoring parameters as well as filtering/masking conditions. This gives you a high degree of control over your BLASTp query and significantly expands utility for advanced users of the BLAST suit of web-apps.
+        \item The results page displays a wealth of information, including visual summaries of the top 100 alignments, description summaries of each alignment, as well as detailed alignment data.
+    \end{enumerate}
+\section{Tool Applications}
+
+The applications of BLAST are to diverse to list exhaustively, but new entries will be added when encountered.
+
+    \subsection{BLASTp}
+
+    \textbf{Identifying Protein Virulence Factors}
+
+    This tool can be used to align novel gene sequences for proteins in one species of pathogen for comparison to another. The alignment allows identification and correlation of gene homologs in other species. If a gene is present in many pathogenic species, it may warrant closer investigation to confirm its role as a virulence factor.\autocite{L1}
+

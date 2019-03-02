@@ -1,0 +1,80 @@
+
+\chapter{Systems Biology} 
+
+\label{Chapter10} 
+
+\section{Concepts Discussed}
+
+    \subsection{Biological Systems}
+    See lecture notes.\autocite{T10}
+
+    \subsection{Constructing Networks}
+    See lecture notes.\autocite{T10}
+
+        \subsubsection{Bottom-Up Approach}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Top-Down Approach}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Middle-Out Approach}
+        See lecture notes.\autocite{T10}
+
+    \subsection{Network Model Features}
+    See lecture notes.\autocite{T10}
+
+        \subsubsection{Network Interactions}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Network Architectures}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Control Circuits}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Robustness}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Modularity}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Redundancy}
+        See lecture notes.\autocite{T10}
+
+        \subsubsection{Bistable Switches}
+        See lecture notes.\autocite{T10}
+
+    \subsection{Practical Aspects of System Models}
+    See lecture notes.\autocite{T10}
+
+\section{Tools Discussed}
+
+    \subsection{OmicsNet}
+
+    OmicsNet enables researchers to create networks to visualize relationships between genes, proteins, transcription factors and metabolites in 3D space.\autocite{B21} The web-tool contains a comprehensive, built-in knowledge-base allowing selection of multiple lists of molecules pertinent to a researcher’s interests.\autocite{B21} Other data formats accepted include molecular lists--wherein the first column is read as the input type and the second column is read as the expression or quantitative measurement---and network files with .sif, .txt and .graphml extensions.\autocite{B21} The web-app is supported across multiple browsers including Chrome, Firefox and Safari with graphics generated using the WebGL Javascript API.\autocite{B21} Network generation starts from inputted molecular lists, which are then compared to the selected external interaction database to build the interaction network.\autocite{B21} The results are displayed in a highly customizable Javascript application which enables exploration using different network models, annotated and colourized by the user.\autocite{B21}
+
+\section{Tool Usage}
+
+    \subsection{OmicsNet}
+        \begin{enumerate}
+            \item \textbf{Input Types} \\
+            Begin by selecting the desired analysis type from the gene/proteins, transcription factors \text{(TF)}, miRNAs, or graph file options on the OmicsNet main page.\autocite{B21} The gene/proteins option allows selection of organism species as well as an extensive list of available database ID formats for upload to the server.\autocite{B21} The transcription factors option displays a similar input window species and database ID options specific to that tool.\autocite{B21} This input patten continues for the remaining options, therefore input types vary only in species for analysis and databases available. The exception was the graph file option, which instead prompted us for a file to upload or example files for small \text{(.txt)} and large \text{(.graphml)} networks.\autocite{B21}
+
+
+            \item \textbf{Network Building} \\
+            
+            Examining the network building page allows concurrent analysis of up to three sample types. Available interaction options inculde PPI, miRNA-gene interactions \text{(MGI)}, metabolite-protein interactiong \text{(MPI)} and TF-gene interactions \text{(TGI)} each of which have interaction database options. Netwrok tools are also available to filter the input data to control network size. On submit, the network results summarize generated subnetworks, lising the number of nodes, edges and seeds for each.\autocite{B21}
+
+            \item \textbf{Network Viewer} \\
+            
+            Proceeding to the network viewer, a Javascript interface is displayed a visualization the selected inputs and interactions.\autocite{B21} Input types are colourized with a legend available underneath which a node explorer, to select a subset of molecules of interest, allowed searching and deleting nodes based on the direction of your analysis.\autocite{B21} Edges appear to represent the relationships between nodes and can be customized for opacity to focus on each aspect respectively.\autocite{B21} Three layouts---spherical, force-directed and layered---allow different geometries to explore the networks relationships. To the right a number of explorer windows appear to allow more specific network analysis.\autocite{B21}
+        \end{enumerate}
+
+\section{Tool Applications}
+
+    \subsection{OmicsNet}
+            \subsubsection{Exploring Biological Networks}
+            The OmicsNet tool provides a powerful tool for visual exploration of many types of biological networks and molecular interactions therein.\autocite{L10} Depending on select inputs and interactions, one is able to explore complex webs of interactions such as protein-protein, protein-metabolite, TF-gene, etc. Relating all of these nodes on in a single, manipulable dashboard allows deep analysis of such relationships. Annotation and colouration of nodes of interest, and further research using the bioinformatics tools can yield results too diverse for exhaustive description. Similar to GEO2R from the previous chapter, this tool will certainly empower new and innovate analysis, leading to significant hypotheses and enlightening conclusions which will continue to expand our understand of the complex interactions underlying biological systems.
+
+
+

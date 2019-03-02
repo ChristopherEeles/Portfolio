@@ -1,0 +1,59 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I}\textbf {Introduction to Mass Spectrometry}}{2}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I-A}\textbf {MS Technical Background}}{2}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-A.1}\textbf {Sample Loading}}{2}{subsubsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-A.2}\textbf {Ionization}}{3}{subsubsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-A.3}\textbf {Acceleration}}{3}{subsubsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-A.4}\textbf {Separation}}{3}{subsubsection.1.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-A.5}\textbf {Detection}}{3}{subsubsection.1.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I-B}\textbf {A Brief History of Mass Spectrometry}}{4}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-B.1}\textbf {Discovery and Physics Applications}}{4}{subsubsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-B.2}\textbf {Inorganic Chemistry Applications}}{4}{subsubsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-B.3}\textbf {Bio/Organic Chemistry Applications}}{4}{subsubsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {I-B.4}\textbf {Medical/Biological Applications}}{4}{subsubsection.1.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {II}\textbf {Biological Mass Spectrometry}}{4}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II-A}\textbf {Matrix Assisted Laser Desorption Ionization}}{5}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-A.1}\textbf {Matrix Assisted Laser Desorption}}{5}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-A.2}\textbf {Matrix Composition}}{5}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II-B}\textbf {MALDI Applications in Molecular Diagnostics}}{5}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-B.1}\textbf {Nectrotizing Enterocolitits}}{5}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-B.2}\textbf {Pancreatic Cancer}}{5}{subsubsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-B.3}\textbf {Identifying Drug Resistance in Bacteria}}{6}{subsubsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II-C}\textbf {Electrospray Ionization Mass Spectrometry}}{6}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-C.1}\textbf {The Electrospray Ionization Mass Spectrometry Process}}{6}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II-D}\textbf {ESI-MS Applications in Molecular Diagnostics}}{7}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-D.1}\textbf {Screeing for Inborn Errors of Metabolism}}{7}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {II-D.2}\textbf {Identification and Quantification of Haemoglobin Variants}}{7}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III}\textbf {Benefits and Limitations of MS in Molecular Diagnostics}}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III-A}\textbf {Benefits}}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III-B}\textbf {Limitations}}{8}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV}\textbf {Conclusion}}{8}{section.4}
